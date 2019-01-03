@@ -1,0 +1,19 @@
+{'intent': 
+	{'name': 'book_room', 'confidence': 0.94057911334939193}, 
+		'entities': 
+		[
+		{'start': 11, 
+		'end': 15, 
+		'value': 'blue', 
+		'entity': 'name_room', 
+		'confidence': 0.8046570048707286, 
+		'extractor': 'ner_crf'}], 
+		'intent_ranking': [{'name': 'book_room', 
+		'confidence': 0.94057911334939193}, 
+		
+		
+		{'name': 'greet', 'confidence': 0.046192545665897214}, 
+		
+		{'name': 'goodbye', 'confidence': 0.013228340984710788}], 
+		
+		'text': 'I want the blue room for the 2018-09-20 starting at 10:00 and during 1 hour !'}

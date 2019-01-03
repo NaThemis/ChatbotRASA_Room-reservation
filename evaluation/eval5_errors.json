@@ -1,0 +1,36 @@
+{
+    "intent_errors": [
+        {
+            "text": "goodmorning",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.911208400973513
+            }
+        },
+        {
+            "text": "goodevening",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.911208400973513
+            }
+        },
+        {
+            "text": "goodafternoon",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.911208400973513
+            }
+        },
+        {
+            "text": "Bonjour Alex",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.911208400973513
+            }
+        }
+    ]
+}

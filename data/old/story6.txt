@@ -1,0 +1,21 @@
+## Generated Story 3844349831653640176
+* greet
+    - utter_greet
+* book_room
+    - utter_ask_room
+* book_room{"name_room": "red"}
+    - slot{"name_room": "red"}
+    - utter_ask_day
+* book_room{"day": "tomorrow"}
+    - slot{"day": "tomorrow"}
+    - utter_ask_hour_start
+* book_room{"hour_start": "14h"}
+    - slot{"hour_start": "14h"}
+    - utter_ask_duration
+* book_room{"duration": "2 hours"}
+    - slot{"duration": "2 hours"}
+    - action_room
+* book_room
+    - utter_goodbye
+    - export
+

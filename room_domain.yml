@@ -1,0 +1,47 @@
+slots:
+  name_room:
+    type: text
+  day:
+    type: text
+  hour_start:
+    type: text
+  duration:
+    type: text
+
+intents:
+ - greet
+ - goodbye
+ - book_room
+
+entities:
+ - name_room
+ - day
+ - hour_start
+ - duration
+
+templates:
+  utter_greet:
+  - text: "Hey ! How can I help?"
+  - text: "Hi ! How can I help?"
+  - text: "YAZZZZZZAAAAA ! ...  How can I help you ?"
+  utter_goodbye:
+  - text: "Bye :("
+  - text: "Talk to you later"
+  utter_ask_room:
+    - 'In what room?'
+  utter_ask_day:
+    - 'What day?'
+  utter_ask_hour_start:
+    - 'What time do you want to start your meeting?'
+  utter_ask_duration:
+    - 'How long would you need ?'
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_room
+ - utter_ask_day
+ - utter_ask_hour_start
+ - utter_ask_duration
+ - action_room

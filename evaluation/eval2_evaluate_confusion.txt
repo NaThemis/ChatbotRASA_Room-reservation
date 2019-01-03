@@ -1,0 +1,29 @@
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate --data models/nlu/default/roomnlu/training_data.json --model models/nlu/default/roomnlu
+2018-09-02 21:25:44 INFO     rasa_nlu.components  - Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+2018-09-02 21:25:45 INFO     rasa_nlu.training_data.loading  - Training data format of models/nlu/default/roomnlu/training_data.json is rasa_nlu
+2018-09-02 21:25:45 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 171 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 97 (4 distinct entities)
+        - found entities: 'name_room', 'duration', 'day', 'hour_start'
+
+2018-09-02 21:25:46 INFO     __main__  - Intent evaluation results:
+2018-09-02 21:25:46 INFO     __main__  - Intent Evaluation: Only considering those 171 examples that have a defined intent out of 171 examples
+2018-09-02 21:25:47 INFO     __main__  - F1-Score:  0.9161681342564585
+2018-09-02 21:25:47 INFO     __main__  - Precision: 0.9247815896015341
+2018-09-02 21:25:47 INFO     __main__  - Accuracy:  0.9181286549707602
+2018-09-02 21:25:47 INFO     __main__  - Classification report:
+             precision    recall  f1-score   support
+
+  book_room       0.89      0.99      0.94       102
+    goodbye       1.00      1.00      1.00         5
+      greet       0.98      0.80      0.88        64
+
+avg / total       0.92      0.92      0.92       171
+
+2018-09-02 21:25:47 INFO     __main__  - There were some nlu intent classification errors. Use `--verbose` to show them in the log.
+2018-09-02 21:25:47 INFO     __main__  - Model prediction errors saved to errors.json.
+2018-09-02 21:25:47 INFO     __main__  - Confusion matrix, without normalization:
+[[101   0   1]
+ [  0   5   0]
+ [ 13   0  51]]

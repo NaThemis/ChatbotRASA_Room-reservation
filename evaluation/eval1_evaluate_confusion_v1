@@ -1,0 +1,886 @@
+
+(base) C:\WINDOWS\system32>cd ..
+
+(base) C:\Windows>dir
+ Le volume dans le lecteur C s’appelle Local Disk
+ Le numéro de série du volume est 028E-55E2
+
+ Répertoire de C:\Windows
+
+09/08/2018  09:45    <DIR>          .
+09/08/2018  09:45    <DIR>          ..
+12/04/2018  01:38    <DIR>          addins
+19/05/2018  10:16    <DIR>          appcompat
+11/07/2018  17:37    <DIR>          apppatch
+30/08/2018  15:47    <DIR>          AppReadiness
+17/08/2018  17:34    <DIR>          bcastdvr
+12/04/2018  01:34            67 072 bfsvc.exe
+12/04/2018  01:38    <DIR>          Boot
+12/04/2018  01:38    <DIR>          Branding
+24/08/2018  18:01    <DIR>          CbsTemp
+17/05/2018  07:44            17 958 comsetup.log
+17/05/2018  14:26    <DIR>          Containers
+07/09/2017  14:48    <DIR>          CSC
+12/04/2018  01:38    <DIR>          Cursors
+16/05/2018  17:00             1 310 DDACLSys.log
+13/06/2018  10:04    <DIR>          debug
+17/05/2018  07:45            11 433 diagerr.xml
+12/04/2018  01:38    <DIR>          diagnostics
+17/05/2018  07:45            11 433 diagwrn.xml
+12/04/2018  18:20    <DIR>          DigitalLocker
+07/09/2017  15:46           834 496 DPINST.LOG
+17/05/2018  07:37             4 179 DtcInstall.log
+17/05/2018  14:24    <DIR>          en-US
+06/07/2018  16:17         3 932 672 explorer.exe
+17/05/2018  07:32    <DIR>          Firmware
+12/04/2018  18:20    <DIR>          fr-CA
+12/04/2018  18:20    <DIR>          fr-FR
+12/04/2018  01:38    <DIR>          GameBarPresenceWriter
+12/04/2018  01:38    <DIR>          Globalization
+17/05/2018  14:30    <DIR>          Help
+15/06/2018  19:30         1 054 720 HelpPane.exe
+12/04/2018  01:34            17 920 hh.exe
+08/08/2018  11:26    <DIR>          hsperfdata_Nathalie Fouet
+12/04/2018  01:38    <DIR>          IdentityCRL
+12/04/2018  18:20    <DIR>          IME
+11/07/2018  17:37    <DIR>          ImmersiveControlPanel
+26/08/2018  18:08    <DIR>          INF
+12/04/2018  01:38    <DIR>          InfusedApps
+12/04/2018  01:38    <DIR>          InputMethod
+12/04/2018  01:38    <DIR>          L2Schemas
+29/08/2018  08:17    <DIR>          LiveKernelReports
+28/08/2018  08:46    <DIR>          Logs
+12/04/2018  01:34            43 131 mib.bin
+29/08/2018  17:32    <DIR>          Microsoft.NET
+12/04/2018  01:38    <DIR>          Migration
+12/06/2018  12:20    <DIR>          Minidump
+12/04/2018  01:38    <DIR>          ModemLogs
+12/04/2018  01:34           245 760 notepad.exe
+03/11/2017  00:54             1 951 NvContainerRecovery.bat
+03/11/2017  03:04             1 951 NvTelemetryContainerRecovery.bat
+17/05/2018  14:22    <DIR>          OCR
+12/04/2018  01:38    <DIR>          Offline Web Pages
+17/05/2018  07:45    <DIR>          Panther
+12/04/2018  01:38    <DIR>          Performance
+23/08/2018  18:02           110 410 PFRO.log
+12/04/2018  01:38    <DIR>          PLA
+12/04/2018  18:25    <DIR>          PolicyDefinitions
+31/08/2018  10:30    <DIR>          Prefetch
+17/08/2018  17:34    <DIR>          PrintDialog
+12/04/2018  01:33            36 112 Professional.xml
+17/05/2018  14:26    <DIR>          Provisioning
+27/06/2018  02:48           897 688 py.exe
+27/06/2018  02:53            55 448 pyshellext.amd64.dll
+27/06/2018  02:48           897 688 pyw.exe
+12/04/2018  01:34           336 384 regedit.exe
+17/05/2018  07:44    <DIR>          Registration
+12/04/2018  18:25    <DIR>          RemotePackages
+12/04/2018  01:38    <DIR>          rescache
+12/04/2018  01:38    <DIR>          Resources
+12/04/2018  01:38    <DIR>          SchCache
+20/08/2018  10:23    <DIR>          schemas
+12/04/2018  18:25    <DIR>          security
+17/05/2018  14:28    <DIR>          ServiceProfiles
+12/04/2018  01:38    <DIR>          ServiceState
+17/05/2018  14:24    <DIR>          servicing
+17/05/2018  14:30    <DIR>          Setup
+28/08/2018  15:39             1 938 setupact.log
+23/06/2018  13:38                 0 setuperr.log
+12/04/2018  18:25    <DIR>          ShellComponents
+17/08/2018  17:34    <DIR>          ShellExperiences
+12/04/2018  18:21    <DIR>          SKB
+17/05/2018  07:45    <DIR>          SoftwareDistribution
+12/04/2018  01:38    <DIR>          Speech
+12/04/2018  01:38    <DIR>          Speech_OneCore
+12/04/2018  01:34           130 560 splwow64.exe
+12/04/2018  01:38    <DIR>          System
+18/03/2017  23:01               219 system.ini
+29/08/2018  08:20    <DIR>          System32
+12/04/2018  18:25    <DIR>          SystemApps
+12/04/2018  18:25    <DIR>          SystemResources
+24/08/2018  08:21    <DIR>          SysWOW64
+12/04/2018  01:38    <DIR>          TAPI
+17/05/2018  07:45    <DIR>          Tasks
+31/08/2018  12:29    <DIR>          Temp
+17/08/2018  17:34    <DIR>          TextInput
+12/04/2018  01:38    <DIR>          tracing
+17/05/2018  14:30    <DIR>          twain_32
+12/04/2018  01:34            65 536 twain_32.dll
+12/04/2018  01:38    <DIR>          Vss
+12/04/2018  01:38    <DIR>          WaaS
+12/04/2018  01:38    <DIR>          Web
+18/03/2017  23:01                92 win.ini
+31/08/2018  12:18               276 WindowsUpdate.log
+12/04/2018  01:34            11 776 winhlp32.exe
+24/08/2018  22:15    <DIR>          WinSxS
+12/04/2018  01:33           316 640 WMSysPr9.prx
+12/04/2018  01:34            11 264 write.exe
+              30 fichier(s)        9 118 017 octets
+              78 Rép(s)  279 371 276 288 octets libres
+
+(base) C:\Windows>cd Users
+Le chemin d’accès spécifié est introuvable.
+
+(base) C:\Windows>Cd /User
+Le chemin d’accès spécifié est introuvable.
+
+(base) C:\Windows>cd C:/User
+Le chemin d’accès spécifié est introuvable.
+
+(base) C:\Windows>cd "C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818"
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>pip install robot
+Collecting robot
+  Downloading https://files.pythonhosted.org/packages/d8/6d/5acc8d030cb22f1aef304197c4e780db65f0208c8e00c62ed8bbafed17b8/robot-20071211.tar.gz
+Building wheels for collected packages: robot
+  Running setup.py bdist_wheel for robot ... done
+  Stored in directory: C:\Users\Nathalie Fouet\AppData\Local\pip\Cache\wheels\a9\d9\2c\d7e602993188fa3406d21ca2e2b2be09ac2a4fe41bbd45b412
+Successfully built robot
+Installing collected packages: robot
+Successfully installed robot-20071211
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>pip install robot.libraries
+Collecting robot.libraries
+  Could not find a version that satisfies the requirement robot.libraries (from versions: )
+No matching distribution found for robot.libraries
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>pip install robotframework
+Collecting robotframework
+  Downloading https://files.pythonhosted.org/packages/95/b1/4faa12e1950b9fbd00060c112fa6f828c4f3998e9b2f8c570c22db10bc88/robotframework-3.0.4.tar.gz (443kB)
+    100% |████████████████████████████████| 450kB 2.1MB/s
+Building wheels for collected packages: robotframework
+  Running setup.py bdist_wheel for robotframework ... done
+  Stored in directory: C:\Users\Nathalie Fouet\AppData\Local\pip\Cache\wheels\8a\01\4a\fd9aef57cca0087d0bd5ceba5db39247ef375fdc4df5ebfb59
+Successfully built robotframework
+Installing collected packages: robotframework
+Successfully installed robotframework-3.0.4
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \--data data/data.json \--model models/nlu/default/roomnlu/crf_model
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \--data data/data \--model models/nlu/default/roomnlu/crf_model
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \--data data.json \--model models/nlu/default/roomnlu/crf_model
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \--data data \--model models/nlu/default/roomnlu/crf_model
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \--data data.json \--config room_domain.yml \--mode crossvalidation
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m evaluate.py -h
+C:\Users\Nathalie Fouet\Anaconda3\python.exe: Error while finding module specification for 'evaluate.py' (ModuleNotFoundError: No module named 'evaluate')
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate -h
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+
+evaluate a Rasa NLU pipeline with cross validation or on external data
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DATA, --data DATA  file containing training/evaluation data
+  --mode MODE           evaluation|crossvalidation (evaluate pretrained model
+                        or train model by crossvalidation)
+  -c CONFIG, --config CONFIG
+                        model configurion file (crossvalidation only)
+  -m MODEL, --model MODEL
+                        path to model (evaluation only)
+  -f FOLDS, --folds FOLDS
+                        number of CV folds (crossvalidation only)
+  --errors ERRORS       output path for the json with wrong predictions
+  --histogram HISTOGRAM
+                        output path for the confidence histogram
+  --confmat CONFMAT     output path for the confusion matrix plot
+  --debug               Print lots of debugging statements. Sets logging level
+                        to DEBUG
+  -v, --verbose         Be verbose. Sets logging level to INFO
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \-data data/data.json \--model models/nlu/default/roomnlu/crf_model
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \-data data.json \--model models/nlu/default/roomnlu/crf_model
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \--data data.json \--config config_spacy.json \--mode crossvalidation
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>-d data.json
+'-d' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -d data.json
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \--data data.json \--model models/nlu
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \-d data.json \--model models/nlu
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \-d data \--model models/nlu
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \-d /data/data.json \--model /models/nlu
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \[-h] data/data.json \--model models/nlu
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>evaluate.py [-h]
+'evaluate.py' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate [-h]
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate [-h] data.json
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate --help
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+
+evaluate a Rasa NLU pipeline with cross validation or on external data
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DATA, --data DATA  file containing training/evaluation data
+  --mode MODE           evaluation|crossvalidation (evaluate pretrained model
+                        or train model by crossvalidation)
+  -c CONFIG, --config CONFIG
+                        model configurion file (crossvalidation only)
+  -m MODEL, --model MODEL
+                        path to model (evaluation only)
+  -f FOLDS, --folds FOLDS
+                        number of CV folds (crossvalidation only)
+  --errors ERRORS       output path for the json with wrong predictions
+  --histogram HISTOGRAM
+                        output path for the confidence histogram
+  --confmat CONFMAT     output path for the confusion matrix plot
+  --debug               Print lots of debugging statements. Sets logging level
+                        to DEBUG
+  -v, --verbose         Be verbose. Sets logging level to INFO
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \--data models/nlu/default/roomnlu/training_data.json \--model models/nlu
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate --debug
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate \
+usage: evaluate.py [-h] -d DATA [--mode MODE] [-c CONFIG] [-m MODEL]
+                   [-f FOLDS] [--errors ERRORS] [--histogram HISTOGRAM]
+                   [--confmat CONFMAT] [--debug] [-v]
+evaluate.py: error: the following arguments are required: -d/--data
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>    --data data/examples/rasa/demo-rasa.json \
+'--data' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>    --model projects/default/model_20180323-145833
+'--model' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate --data models/nlu/default/roomnlu/training_data.json --model models/nlu
+Traceback (most recent call last):
+  File "C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\model.py", line 74, in load
+    data = utils.read_json_file(metadata_file)
+  File "C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\utils\__init__.py", line 208, in read_json_file
+    content = read_file(filename)
+  File "C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\utils\__init__.py", line 202, in read_file
+    with io.open(filename, encoding=encoding) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'models/nlu\\metadata.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nathalie Fouet\Anaconda3\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "C:\Users\Nathalie Fouet\Anaconda3\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\evaluate.py", line 843, in <module>
+    main()
+  File "C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\evaluate.py", line 837, in main
+    cmdline_args.histogram)
+  File "C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\evaluate.py", line 613, in run_evaluation
+    interpreter = Interpreter.load(model_path, component_builder)
+  File "C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\model.py", line 288, in load
+    model_metadata = Metadata.load(model_dir)
+  File "C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\model.py", line 79, in load
+    "from '{}'. {}".format(abspath, e))
+rasa_nlu.model.InvalidProjectError: Failed to load model metadata from 'C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818\models\nlu\metadata.json'. [Errno 2] No such file or directory: 'models/nlu\\metadata.json'
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate --data models/nlu/default/roomnlu/training_data.json --model models/nlu/default/roomnlu
+2018-08-31 16:34:02 INFO     rasa_nlu.components  - Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+2018-08-31 16:34:57 INFO     rasa_nlu.training_data.loading  - Training data format of models/nlu/default/roomnlu/training_data.json is rasa_nlu
+2018-08-31 16:34:57 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 80 (3 distinct intents)
+        - Found intents: 'greet', 'goodbye', 'book_room'
+        - entity examples: 61 (4 distinct entities)
+        - found entities: 'name_room', 'duration', 'day', 'hour_start'
+
+2018-08-31 16:34:58 INFO     __main__  - Intent evaluation results:
+2018-08-31 16:34:58 INFO     __main__  - Intent Evaluation: Only considering those 80 examples that have a defined intent out of 80 examples
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-08-31 16:34:58 INFO     __main__  - F1-Score:  0.7458904109589041
+2018-08-31 16:34:58 INFO     __main__  - Precision: 0.6806249999999999
+2018-08-31 16:34:58 INFO     __main__  - Accuracy:  0.825
+2018-08-31 16:34:58 INFO     __main__  - Classification report:
+             precision    recall  f1-score   support
+
+  book_room       0.82      1.00      0.90        66
+    goodbye       0.00      0.00      0.00         5
+      greet       0.00      0.00      0.00         9
+
+avg / total       0.68      0.82      0.75        80
+
+2018-08-31 16:34:58 INFO     __main__  - There were some nlu intent classification errors. Use `--verbose` to show them in the log.
+2018-08-31 16:34:58 INFO     __main__  - Model prediction errors saved to errors.json.
+2018-08-31 16:34:59 INFO     __main__  - Confusion matrix, without normalization:
+[[66  0  0]
+ [ 5  0  0]
+ [ 9  0  0]]
+forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source
+libifcoremd.dll    00007FFB1D0294C4  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFB6C1056FD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFB6D733034  Unknown               Unknown  Unknown
+ntdll.dll          00007FFB6FD81431  Unknown               Unknown  Unknown
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate --data models/nlu/default/roomnlu/training_data.json --config config_spacy.json --mode crossvalidation
+2018-08-31 16:45:18 INFO     rasa_nlu.training_data.loading  - Training data format of models/nlu/default/roomnlu/training_data.json is rasa_nlu
+2018-08-31 16:45:19 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 80 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 61 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+2018-08-31 16:45:19 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 80 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 61 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+2018-08-31 16:45:19 INFO     rasa_nlu.utils.spacy_utils  - Trying to load spacy model with name 'en'
+2018-08-31 16:45:26 INFO     rasa_nlu.components  - Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\model_selection\_split.py:605: Warning: The least populated class in y has only 5 members, which is too few. The minimum number of members in any class cannot be less than n_splits=10.
+  % (min_groups, self.n_splits)), Warning)
+2018-08-31 16:45:26 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 71 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 55 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'greet' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'goodbye' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'name_room' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-08-31 16:45:26 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 9 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 6 (2 distinct entities)
+        - found entities: 'name_room', 'hour_start'
+
+2018-08-31 16:45:26 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-08-31 16:45:27 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-06-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:27 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the green room for the 2018-09-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:27 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:27 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I would like to reserve the green room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.0s finished
+2018-08-31 16:45:27 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-08-31 16:45:28 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 72 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 56 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'greet' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+2018-08-31 16:45:28 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 8 (2 distinct intents)
+        - Found intents: 'greet', 'book_room'
+        - entity examples: 5 (1 distinct entities)
+        - found entities: 'hour_start'
+
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-08-31 16:45:28 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-06-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:28 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the green room for the 2018-09-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:28 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:28 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I would like to reserve the green room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.0s finished
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-08-31 16:45:28 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 71 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 55 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'goodbye' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'greet' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'duration' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-08-31 16:45:28 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 9 (3 distinct intents)
+        - Found intents: 'book_room', 'greet', 'goodbye'
+        - entity examples: 6 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+2018-08-31 16:45:28 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-08-31 16:45:29 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-06-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:29 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the green room for the 2018-09-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:29 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:29 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I would like to reserve the green room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.1s finished
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-08-31 16:45:29 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 72 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 54 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'goodbye' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'duration' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-08-31 16:45:29 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 8 (2 distinct intents)
+        - Found intents: 'book_room', 'goodbye'
+        - entity examples: 7 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:29 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-08-31 16:45:30 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-06-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:30 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the green room for the 2018-09-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:30 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I would like to reserve the green room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.1s finished
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-08-31 16:45:30 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 72 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 54 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'greet' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'name_room' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-08-31 16:45:30 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 8 (2 distinct intents)
+        - Found intents: 'book_room', 'greet'
+        - entity examples: 7 (3 distinct entities)
+        - found entities: 'duration', 'name_room', 'hour_start'
+
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:30 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-08-31 16:45:31 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:31 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-08-31 16:45:31 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-06-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:31 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the green room for the 2018-09-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:31 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:31 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I would like to reserve the green room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:31 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:31 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-08-31 16:45:31 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:31 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.1s finished
+2018-08-31 16:45:31 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-08-31 16:45:32 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 72 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 54 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'greet' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'duration' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-08-31 16:45:32 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 8 (2 distinct intents)
+        - Found intents: 'greet', 'book_room'
+        - entity examples: 7 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-08-31 16:45:32 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-06-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:32 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the green room for the 2018-09-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:32 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:32 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I would like to reserve the green room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.0s finished
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-08-31 16:45:32 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 73 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 55 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'greet' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'day' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'name_room' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-08-31 16:45:32 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 7 (2 distinct intents)
+        - Found intents: 'greet', 'book_room'
+        - entity examples: 6 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-08-31 16:45:32 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-08-31 16:45:33 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-06-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:33 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:33 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I would like to reserve the green room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.0s finished
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-08-31 16:45:33 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 73 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 56 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'greet' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'duration' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-08-31 16:45:33 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 7 (2 distinct intents)
+        - Found intents: 'greet', 'book_room'
+        - entity examples: 5 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:33 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-08-31 16:45:33 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the green room for the 2018-09-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:33 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:33 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I would like to reserve the green room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.0s finished
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1137: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1137: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+2018-08-31 16:45:34 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 72 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 55 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'greet' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'goodbye' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'day' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-08-31 16:45:34 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 8 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 6 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-08-31 16:45:34 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-06-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:34 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the green room for the 2018-09-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:34 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:34 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.1s finished
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-08-31 16:45:35 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 72 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 55 (4 distinct entities)
+        - found entities: 'hour_start', 'duration', 'name_room', 'day'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'greet' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'goodbye' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'name_room' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-08-31 16:45:35 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 8 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 6 (3 distinct entities)
+        - found entities: 'hour_start', 'name_room', 'day'
+
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-08-31 16:45:35 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-06-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:35 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the green room for the 2018-09-21 starting at 07:00 and during 2 hours ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:35 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I want the red room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:35 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I would like to reserve the green room for the 2018-09-20 starting at 10:00 and during 1 hour ! '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Finished training component.
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.1s finished
+2018-08-31 16:45:35 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-08-31 16:45:36 INFO     __main__  - CV evaluation (n=10)
+2018-08-31 16:45:36 INFO     __main__  - Intent evaluation results
+2018-08-31 16:45:36 INFO     __main__  - train Accuracy: 0.899 (0.062)
+2018-08-31 16:45:36 INFO     __main__  - train F1-score: 0.862 (0.092)
+2018-08-31 16:45:36 INFO     __main__  - train Precision: 0.859 (0.100)
+2018-08-31 16:45:36 INFO     __main__  - test Accuracy: 0.836 (0.060)
+2018-08-31 16:45:36 INFO     __main__  - test F1-score: 0.782 (0.062)
+2018-08-31 16:45:36 INFO     __main__  - test Precision: 0.745 (0.095)
+2018-08-31 16:45:36 INFO     __main__  - Entity evaluation results
+2018-08-31 16:45:36 INFO     __main__  - Entity extractor: ner_crf
+2018-08-31 16:45:36 INFO     __main__  - train Accuracy: 0.980 (0.006)
+2018-08-31 16:45:36 INFO     __main__  - train F1-score: 0.978 (0.007)
+2018-08-31 16:45:36 INFO     __main__  - train Precision: 0.981 (0.005)
+2018-08-31 16:45:36 INFO     __main__  - Entity extractor: ner_crf
+2018-08-31 16:45:36 INFO     __main__  - test Accuracy: 0.970 (0.034)
+2018-08-31 16:45:36 INFO     __main__  - test F1-score: 0.968 (0.038)
+2018-08-31 16:45:36 INFO     __main__  - test Precision: 0.970 (0.041)
+2018-08-31 16:45:36 INFO     __main__  - Finished evaluation
+
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>

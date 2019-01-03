@@ -1,0 +1,1591 @@
+Python 
+Type "copyright", "credits" or "license" for more information.
+
+IPython  -- An enhanced Interactive Python.
+
+Redémarrage du noyau... 
+
+
+ 
+
+runfile('C:/Users/Nathalie Fouet/Desktop/Chatbot_Alex_room_270818/booking.py', wdir='C:/Users/Nathalie Fouet/Desktop/Chatbot_Alex_room_270818')
+__________________
+make_a_booking begin
+__________________
+check if the room is available
+variables at the beginning
+day_only 2018-08-31
+day_startinghour 2018-08-31T14:00:00+00:00
+day_only 2018-08-31T16:00:00+00:00
+name_room red
+room_list  []
+end of the function
+the room is free
+ the query is INSERT INTO reservations (name_room, hour_start, hour_end) VALUES ('red', '2018-08-31T14:00:00+00:00', '2018-08-31T16:00:00+00:00' );
+print all the values
+(65, 'red', '2018-08-31T14:00:00+00:00', '2018-08-31T16:00:00+00:00')
+
+runfile('C:/Users/Nathalie Fouet/Desktop/Chatbot_Alex_room_270818/booking.py', wdir='C:/Users/Nathalie Fouet/Desktop/Chatbot_Alex_room_270818')
+__________________
+make_a_booking begin
+__________________
+check if the room is available
+variables at the beginning
+day_only 2018-08-31
+day_startinghour 2018-08-31T14:00:00+00:00
+day_only 2018-08-31T16:00:00+00:00
+name_room red
+room_list  []
+end of the function
+the room is free
+ the query is INSERT INTO reservations (name_room, hour_start, hour_end) VALUES ('red', '2018-08-31T14:00:00+00:00', '2018-08-31T16:00:00+00:00' );
+print all the values
+(66, 'red', '2018-08-31T14:00:00+00:00', '2018-08-31T16:00:00+00:00')
+
+runfile('C:/Users/Nathalie Fouet/Desktop/Chatbot_Alex_room_270818/train_online.py', wdir='C:/Users/Nathalie Fouet/Desktop/Chatbot_Alex_room_270818')
+INFO:rasa_nlu.components:Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/roomnlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+Using CNTK backend
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\keras\backend\cntk_backend.py:19: UserWarning: CNTK backend warning: GPU is not detected. CNTK's CPU version is not fully optimized,please run with GPU to get better performance.
+  'CNTK backend warning: GPU is not detected. '
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+print all the values
+(66, 'red', '2018-08-31T14:00:00+00:00', '2018-08-31T16:00:00+00:00')
+WARNING:rasa_core.agent:Passing a file name to `agent.train_online(...)` is deprecated. Rather load the data with `data = agent.load_data(file_name)` and pass it to `agent.train_online(data)`.
+Processed Story Blocks: 100%|██████████| 11/11 [00:00<00:00, 785.84it/s, # trackers=1]
+Processed Story Blocks: 100%|██████████| 11/11 [00:00<00:00, 297.35it/s, # trackers=5]
+Processed Story Blocks: 100%|██████████| 11/11 [00:00<00:00, 105.77it/s, # trackers=14]
+Processed Story Blocks: 100%|██████████| 11/11 [00:00<00:00, 78.57it/s, # trackers=13]
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 143/143 [00:00<00:00, 2600.41it/s, # actions=40]
+INFO:rasa_core.featurizers:Created 40 action examples.
+Processed actions: 40it [00:00, 4999.47it/s, # examples=40]
+INFO:rasa_core.policies.memoization:Memorized 40 unique action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 143/143 [00:00<00:00, 1588.90it/s, # actions=97]
+INFO:rasa_core.featurizers:Created 97 action examples.
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+masking_1 (Masking)          (None, 5, 21)             0         
+_________________________________________________________________
+lstm_1 (LSTM)                (None, 32)                6912      
+_________________________________________________________________
+dense_1 (Dense)              (None, 10)                330       
+_________________________________________________________________
+activation_1 (Activation)    (None, 10)                0         
+=================================================================
+Total params: 7,242
+Trainable params: 7,242
+Non-trainable params: 0
+_________________________________________________________________
+INFO:rasa_core.policies.keras_policy:Fitting model with 97 total samples and a validation split of 0.0
+Epoch 1/200
+97/97 [==============================] - 0s - loss: 2.2882 - acc: 0.1443     
+Epoch 2/200
+97/97 [==============================] - 0s - loss: 2.1994 - acc: 0.2990     
+Epoch 3/200
+97/97 [==============================] - 0s - loss: 2.1555 - acc: 0.4330     
+Epoch 4/200
+97/97 [==============================] - 0s - loss: 2.0984 - acc: 0.4536     
+Epoch 5/200
+97/97 [==============================] - 0s - loss: 2.0874 - acc: 0.4742     
+Epoch 6/200
+97/97 [==============================] - 0s - loss: 2.0344 - acc: 0.5155     
+Epoch 7/200
+50/97 [==============>...............] - ETA: 0s - loss: 2.1256 - acc: 0.380097/97 [==============================] - 0s - loss: 1.9947 - acc: 0.4742     
+Epoch 8/200
+97/97 [==============================] - 0s - loss: 1.9647 - acc: 0.5155     
+Epoch 9/200
+97/97 [==============================] - 0s - loss: 1.9198 - acc: 0.5052     
+Epoch 10/200
+97/97 [==============================] - 0s - loss: 1.8920 - acc: 0.5052     
+Epoch 11/200
+97/97 [==============================] - 0s - loss: 1.8760 - acc: 0.5052     
+Epoch 12/200
+97/97 [==============================] - 0s - loss: 1.8149 - acc: 0.5052     
+Epoch 13/200
+97/97 [==============================] - 0s - loss: 1.7951 - acc: 0.5052     
+Epoch 14/200
+97/97 [==============================] - 0s - loss: 1.7720 - acc: 0.5052     
+Epoch 15/200
+97/97 [==============================] - 0s - loss: 1.7635 - acc: 0.5052     
+Epoch 16/200
+97/97 [==============================] - 0s - loss: 1.7327 - acc: 0.5052     
+Epoch 17/200
+97/97 [==============================] - 0s - loss: 1.7022 - acc: 0.5052     
+Epoch 18/200
+97/97 [==============================] - 0s - loss: 1.7068 - acc: 0.5052     
+Epoch 19/200
+97/97 [==============================] - 0s - loss: 1.6745 - acc: 0.5052     
+Epoch 20/200
+97/97 [==============================] - 0s - loss: 1.6701 - acc: 0.5052     
+Epoch 21/200
+97/97 [==============================] - 0s - loss: 1.6316 - acc: 0.5052     
+Epoch 22/200
+97/97 [==============================] - 0s - loss: 1.6291 - acc: 0.5052     
+Epoch 23/200
+97/97 [==============================] - 0s - loss: 1.6321 - acc: 0.5052     
+Epoch 24/200
+97/97 [==============================] - 0s - loss: 1.6255 - acc: 0.5052     
+Epoch 25/200
+97/97 [==============================] - 0s - loss: 1.5962 - acc: 0.5052     
+Epoch 26/200
+97/97 [==============================] - 0s - loss: 1.5959 - acc: 0.5052     
+Epoch 27/200
+97/97 [==============================] - 0s - loss: 1.5745 - acc: 0.5052     
+Epoch 28/200
+97/97 [==============================] - 0s - loss: 1.5700 - acc: 0.5052     
+Epoch 29/200
+97/97 [==============================] - 0s - loss: 1.5729 - acc: 0.5052     
+Epoch 30/200
+97/97 [==============================] - 0s - loss: 1.5328 - acc: 0.5052     
+Epoch 31/200
+97/97 [==============================] - 0s - loss: 1.5151 - acc: 0.5052     
+Epoch 32/200
+97/97 [==============================] - 0s - loss: 1.5305 - acc: 0.5052     
+Epoch 33/200
+97/97 [==============================] - 0s - loss: 1.5044 - acc: 0.5052     
+Epoch 34/200
+97/97 [==============================] - 0s - loss: 1.5210 - acc: 0.5052     
+Epoch 35/200
+97/97 [==============================] - 0s - loss: 1.5180 - acc: 0.5052     
+Epoch 36/200
+97/97 [==============================] - 0s - loss: 1.4924 - acc: 0.5052     
+Epoch 37/200
+97/97 [==============================] - 0s - loss: 1.4683 - acc: 0.5052     
+Epoch 38/200
+97/97 [==============================] - 0s - loss: 1.4757 - acc: 0.5052     
+Epoch 39/200
+97/97 [==============================] - 0s - loss: 1.4614 - acc: 0.5052     
+Epoch 40/200
+97/97 [==============================] - 0s - loss: 1.4639 - acc: 0.5052     
+Epoch 41/200
+97/97 [==============================] - 0s - loss: 1.4454 - acc: 0.5052     
+Epoch 42/200
+97/97 [==============================] - 0s - loss: 1.4272 - acc: 0.5052     
+Epoch 43/200
+97/97 [==============================] - 0s - loss: 1.4482 - acc: 0.5052     
+Epoch 44/200
+97/97 [==============================] - 0s - loss: 1.4181 - acc: 0.5052     
+Epoch 45/200
+50/97 [==============>...............] - ETA: 0s - loss: 1.3216 - acc: 0.540097/97 [==============================] - 0s - loss: 1.4062 - acc: 0.5052     
+Epoch 46/200
+97/97 [==============================] - 0s - loss: 1.4196 - acc: 0.5052     
+Epoch 47/200
+97/97 [==============================] - 0s - loss: 1.4000 - acc: 0.5052     
+Epoch 48/200
+97/97 [==============================] - 0s - loss: 1.3933 - acc: 0.5052     
+Epoch 49/200
+97/97 [==============================] - 0s - loss: 1.3788 - acc: 0.5052     
+Epoch 50/200
+97/97 [==============================] - 0s - loss: 1.3694 - acc: 0.5052     
+Epoch 51/200
+97/97 [==============================] - 0s - loss: 1.3831 - acc: 0.5052     
+Epoch 52/200
+97/97 [==============================] - 0s - loss: 1.3630 - acc: 0.5052     
+Epoch 53/200
+97/97 [==============================] - 0s - loss: 1.3647 - acc: 0.5052     
+Epoch 54/200
+97/97 [==============================] - 0s - loss: 1.3492 - acc: 0.5052     
+Epoch 55/200
+97/97 [==============================] - ETA: 0s - loss: 1.2648 - acc: 0.5800 - 0s - loss: 1.3443 - acc: 0.5052     
+Epoch 56/200
+97/97 [==============================] - 0s - loss: 1.3145 - acc: 0.5052     
+Epoch 57/200
+97/97 [==============================] - 0s - loss: 1.3157 - acc: 0.5052     
+Epoch 58/200
+97/97 [==============================] - ETA: 0s - loss: 1.4036 - acc: 0.5200 - 0s - loss: 1.3237 - acc: 0.5052     
+Epoch 59/200
+97/97 [==============================] - 0s - loss: 1.2879 - acc: 0.5155     
+Epoch 60/200
+50/97 [==============>...............] - ETA: 0s - loss: 1.2924 - acc: 0.520097/97 [==============================] - 0s - loss: 1.2813 - acc: 0.5052     
+Epoch 61/200
+97/97 [==============================] - 0s - loss: 1.2995 - acc: 0.5052     
+Epoch 62/200
+97/97 [==============================] - 0s - loss: 1.2832 - acc: 0.5052     
+Epoch 63/200
+97/97 [==============================] - 0s - loss: 1.2609 - acc: 0.5258     
+Epoch 64/200
+97/97 [==============================] - 0s - loss: 1.2898 - acc: 0.5155     
+Epoch 65/200
+97/97 [==============================] - 0s - loss: 1.2518 - acc: 0.5052     
+Epoch 66/200
+97/97 [==============================] - 0s - loss: 1.2592 - acc: 0.5052     
+Epoch 67/200
+97/97 [==============================] - 0s - loss: 1.2443 - acc: 0.5052     
+Epoch 68/200
+97/97 [==============================] - 0s - loss: 1.2296 - acc: 0.5052     
+Epoch 69/200
+97/97 [==============================] - 0s - loss: 1.2401 - acc: 0.5258     
+Epoch 70/200
+97/97 [==============================] - 0s - loss: 1.2264 - acc: 0.5155     
+Epoch 71/200
+97/97 [==============================] - 0s - loss: 1.2190 - acc: 0.5155     
+Epoch 72/200
+97/97 [==============================] - 0s - loss: 1.2232 - acc: 0.5258     
+Epoch 73/200
+97/97 [==============================] - 0s - loss: 1.1896 - acc: 0.5155     
+Epoch 74/200
+97/97 [==============================] - 0s - loss: 1.1978 - acc: 0.5361     
+Epoch 75/200
+97/97 [==============================] - 0s - loss: 1.1926 - acc: 0.5052     
+Epoch 76/200
+97/97 [==============================] - 0s - loss: 1.1727 - acc: 0.5155     
+Epoch 77/200
+97/97 [==============================] - 0s - loss: 1.1457 - acc: 0.5361     
+Epoch 78/200
+97/97 [==============================] - 0s - loss: 1.1424 - acc: 0.5155     
+Epoch 79/200
+97/97 [==============================] - 0s - loss: 1.1587 - acc: 0.5361     
+Epoch 80/200
+97/97 [==============================] - 0s - loss: 1.1125 - acc: 0.5258     
+Epoch 81/200
+97/97 [==============================] - 0s - loss: 1.1570 - acc: 0.5464     
+Epoch 82/200
+97/97 [==============================] - 0s - loss: 1.1268 - acc: 0.5361     
+Epoch 83/200
+97/97 [==============================] - 0s - loss: 1.1017 - acc: 0.5464     
+Epoch 84/200
+97/97 [==============================] - 0s - loss: 1.0773 - acc: 0.5670     
+Epoch 85/200
+97/97 [==============================] - 0s - loss: 1.0831 - acc: 0.5567     
+Epoch 86/200
+97/97 [==============================] - 0s - loss: 1.0538 - acc: 0.5876     
+Epoch 87/200
+97/97 [==============================] - 0s - loss: 1.0719 - acc: 0.5670     
+Epoch 88/200
+97/97 [==============================] - 0s - loss: 1.0856 - acc: 0.5670     
+Epoch 89/200
+97/97 [==============================] - 0s - loss: 1.0329 - acc: 0.5773     
+Epoch 90/200
+97/97 [==============================] - 0s - loss: 1.0177 - acc: 0.6186     
+Epoch 91/200
+97/97 [==============================] - 0s - loss: 1.0281 - acc: 0.5773     
+Epoch 92/200
+97/97 [==============================] - 0s - loss: 0.9925 - acc: 0.6186     
+Epoch 93/200
+97/97 [==============================] - 0s - loss: 0.9926 - acc: 0.5979     
+Epoch 94/200
+97/97 [==============================] - 0s - loss: 0.9811 - acc: 0.6289     
+Epoch 95/200
+97/97 [==============================] - 0s - loss: 0.9899 - acc: 0.5773     
+Epoch 96/200
+97/97 [==============================] - 0s - loss: 0.9514 - acc: 0.6289     
+Epoch 97/200
+97/97 [==============================] - 0s - loss: 0.9536 - acc: 0.6495     
+Epoch 98/200
+97/97 [==============================] - 0s - loss: 0.9815 - acc: 0.6186     
+Epoch 99/200
+97/97 [==============================] - ETA: 0s - loss: 0.9078 - acc: 0.6600 - 0s - loss: 0.9631 - acc: 0.6392     
+Epoch 100/200
+97/97 [==============================] - 0s - loss: 0.9044 - acc: 0.7113     
+Epoch 101/200
+97/97 [==============================] - 0s - loss: 0.9204 - acc: 0.6392     
+Epoch 102/200
+97/97 [==============================] - 0s - loss: 0.9066 - acc: 0.6907     
+Epoch 103/200
+97/97 [==============================] - ETA: 0s - loss: 0.9718 - acc: 0.6800 - 0s - loss: 0.8979 - acc: 0.7113     
+Epoch 104/200
+97/97 [==============================] - 0s - loss: 0.8961 - acc: 0.6495     
+Epoch 105/200
+97/97 [==============================] - 0s - loss: 0.8976 - acc: 0.6804     
+Epoch 106/200
+97/97 [==============================] - 0s - loss: 0.8397 - acc: 0.7010     
+Epoch 107/200
+97/97 [==============================] - 0s - loss: 0.8298 - acc: 0.7216     
+Epoch 108/200
+97/97 [==============================] - 0s - loss: 0.8683 - acc: 0.7629     
+Epoch 109/200
+97/97 [==============================] - 0s - loss: 0.8140 - acc: 0.7526     
+Epoch 110/200
+97/97 [==============================] - 0s - loss: 0.7922 - acc: 0.7526     
+Epoch 111/200
+97/97 [==============================] - 0s - loss: 0.8530 - acc: 0.7216     
+Epoch 112/200
+97/97 [==============================] - 0s - loss: 0.8007 - acc: 0.7938     
+Epoch 113/200
+97/97 [==============================] - 0s - loss: 0.7950 - acc: 0.7938     
+Epoch 114/200
+97/97 [==============================] - 0s - loss: 0.7847 - acc: 0.8454     
+Epoch 115/200
+50/97 [==============>...............] - ETA: 0s - loss: 0.8117 - acc: 0.800097/97 [==============================] - 0s - loss: 0.7653 - acc: 0.8247     
+Epoch 116/200
+97/97 [==============================] - 0s - loss: 0.7428 - acc: 0.8247     
+Epoch 117/200
+97/97 [==============================] - 0s - loss: 0.7152 - acc: 0.8763     
+Epoch 118/200
+97/97 [==============================] - 0s - loss: 0.7469 - acc: 0.7732     
+Epoch 119/200
+97/97 [==============================] - 0s - loss: 0.6957 - acc: 0.8351     
+Epoch 120/200
+97/97 [==============================] - 0s - loss: 0.7389 - acc: 0.8351     
+Epoch 121/200
+97/97 [==============================] - 0s - loss: 0.6728 - acc: 0.8866     
+Epoch 122/200
+97/97 [==============================] - 0s - loss: 0.6584 - acc: 0.8866     
+Epoch 123/200
+97/97 [==============================] - 0s - loss: 0.6830 - acc: 0.8454     
+Epoch 124/200
+97/97 [==============================] - 0s - loss: 0.6476 - acc: 0.8557     
+Epoch 125/200
+97/97 [==============================] - 0s - loss: 0.6486 - acc: 0.8660     
+Epoch 126/200
+97/97 [==============================] - 0s - loss: 0.6260 - acc: 0.8763     
+Epoch 127/200
+97/97 [==============================] - 0s - loss: 0.6292 - acc: 0.9072     
+Epoch 128/200
+97/97 [==============================] - 0s - loss: 0.6060 - acc: 0.9278     
+Epoch 129/200
+97/97 [==============================] - 0s - loss: 0.5881 - acc: 0.8969     
+Epoch 130/200
+97/97 [==============================] - 0s - loss: 0.6000 - acc: 0.9381     
+Epoch 131/200
+97/97 [==============================] - 0s - loss: 0.5826 - acc: 0.8969     
+Epoch 132/200
+97/97 [==============================] - 0s - loss: 0.5787 - acc: 0.8969     
+Epoch 133/200
+97/97 [==============================] - 0s - loss: 0.5748 - acc: 0.8763     
+Epoch 134/200
+97/97 [==============================] - 0s - loss: 0.5807 - acc: 0.8969     
+Epoch 135/200
+97/97 [==============================] - 0s - loss: 0.5514 - acc: 0.8866     
+Epoch 136/200
+97/97 [==============================] - 0s - loss: 0.5724 - acc: 0.8969     
+Epoch 137/200
+97/97 [==============================] - 0s - loss: 0.5357 - acc: 0.8969     
+Epoch 138/200
+97/97 [==============================] - 0s - loss: 0.5447 - acc: 0.8866     
+Epoch 139/200
+97/97 [==============================] - 0s - loss: 0.5263 - acc: 0.8969     
+Epoch 140/200
+97/97 [==============================] - 0s - loss: 0.5578 - acc: 0.8454     
+Epoch 141/200
+97/97 [==============================] - 0s - loss: 0.4934 - acc: 0.9485     
+Epoch 142/200
+97/97 [==============================] - 0s - loss: 0.4782 - acc: 0.9278     
+Epoch 143/200
+97/97 [==============================] - 0s - loss: 0.4886 - acc: 0.9175     
+Epoch 144/200
+97/97 [==============================] - 0s - loss: 0.4695 - acc: 0.9381     
+Epoch 145/200
+97/97 [==============================] - 0s - loss: 0.4819 - acc: 0.9175     
+Epoch 146/200
+97/97 [==============================] - 0s - loss: 0.4317 - acc: 0.9897     
+Epoch 147/200
+97/97 [==============================] - 0s - loss: 0.4803 - acc: 0.9072     
+Epoch 148/200
+97/97 [==============================] - 0s - loss: 0.4628 - acc: 0.9485     
+Epoch 149/200
+97/97 [==============================] - 0s - loss: 0.4818 - acc: 0.9485     
+Epoch 150/200
+97/97 [==============================] - 0s - loss: 0.4725 - acc: 0.9175     
+Epoch 151/200
+97/97 [==============================] - 0s - loss: 0.4446 - acc: 0.9588     
+Epoch 152/200
+97/97 [==============================] - 0s - loss: 0.4605 - acc: 0.9381     
+Epoch 153/200
+97/97 [==============================] - 0s - loss: 0.4418 - acc: 0.9588     
+Epoch 154/200
+97/97 [==============================] - 0s - loss: 0.4534 - acc: 0.8763     
+Epoch 155/200
+97/97 [==============================] - 0s - loss: 0.4300 - acc: 0.9588     
+Epoch 156/200
+97/97 [==============================] - ETA: 0s - loss: 0.3706 - acc: 0.9800 - 0s - loss: 0.4041 - acc: 0.9691     
+Epoch 157/200
+97/97 [==============================] - 0s - loss: 0.3926 - acc: 0.9691     
+Epoch 158/200
+97/97 [==============================] - 0s - loss: 0.4094 - acc: 0.9381     
+Epoch 159/200
+97/97 [==============================] - 0s - loss: 0.3830 - acc: 0.9588     
+Epoch 160/200
+97/97 [==============================] - 0s - loss: 0.3921 - acc: 0.9485     
+Epoch 161/200
+97/97 [==============================] - 0s - loss: 0.3928 - acc: 0.9381     
+Epoch 162/200
+97/97 [==============================] - 0s - loss: 0.3835 - acc: 0.9485     
+Epoch 163/200
+97/97 [==============================] - 0s - loss: 0.3715 - acc: 0.9691     
+Epoch 164/200
+97/97 [==============================] - 0s - loss: 0.3492 - acc: 0.9794     
+Epoch 165/200
+97/97 [==============================] - 0s - loss: 0.3737 - acc: 0.9588     
+Epoch 166/200
+97/97 [==============================] - 0s - loss: 0.3700 - acc: 0.9381     
+Epoch 167/200
+97/97 [==============================] - 0s - loss: 0.3544 - acc: 0.9588     
+Epoch 168/200
+97/97 [==============================] - 0s - loss: 0.3777 - acc: 0.9691     
+Epoch 169/200
+97/97 [==============================] - 0s - loss: 0.3602 - acc: 0.9897     
+Epoch 170/200
+97/97 [==============================] - 0s - loss: 0.3345 - acc: 0.9691     
+Epoch 171/200
+97/97 [==============================] - 0s - loss: 0.3267 - acc: 0.9794     
+Epoch 172/200
+97/97 [==============================] - 0s - loss: 0.3426 - acc: 0.9691     
+Epoch 173/200
+97/97 [==============================] - 0s - loss: 0.3388 - acc: 0.9381     
+Epoch 174/200
+97/97 [==============================] - 0s - loss: 0.3292 - acc: 0.9588     
+Epoch 175/200
+97/97 [==============================] - 0s - loss: 0.3013 - acc: 1.0000     
+Epoch 176/200
+97/97 [==============================] - 0s - loss: 0.3040 - acc: 1.0000     
+Epoch 177/200
+97/97 [==============================] - 0s - loss: 0.3412 - acc: 0.9485     
+Epoch 178/200
+50/97 [==============>...............] - ETA: 0s - loss: 0.2605 - acc: 0.960097/97 [==============================] - 0s - loss: 0.3147 - acc: 0.9794     
+Epoch 179/200
+97/97 [==============================] - 0s - loss: 0.3281 - acc: 0.9794     
+Epoch 180/200
+97/97 [==============================] - 0s - loss: 0.3012 - acc: 0.9588     
+Epoch 181/200
+97/97 [==============================] - 0s - loss: 0.3371 - acc: 0.9485     
+Epoch 182/200
+97/97 [==============================] - 0s - loss: 0.3204 - acc: 0.9691     
+Epoch 183/200
+97/97 [==============================] - 0s - loss: 0.3152 - acc: 0.9897     
+Epoch 184/200
+97/97 [==============================] - 0s - loss: 0.3067 - acc: 0.9485     
+Epoch 185/200
+97/97 [==============================] - 0s - loss: 0.2904 - acc: 0.9588     
+Epoch 186/200
+97/97 [==============================] - 0s - loss: 0.2767 - acc: 0.9691     
+Epoch 187/200
+97/97 [==============================] - 0s - loss: 0.2859 - acc: 1.0000     
+Epoch 188/200
+97/97 [==============================] - 0s - loss: 0.2653 - acc: 0.9897     
+Epoch 189/200
+97/97 [==============================] - 0s - loss: 0.2945 - acc: 0.9691     
+Epoch 190/200
+97/97 [==============================] - 0s - loss: 0.2932 - acc: 0.9794     
+Epoch 191/200
+97/97 [==============================] - 0s - loss: 0.2431 - acc: 1.0000     
+Epoch 192/200
+97/97 [==============================] - 0s - loss: 0.2638 - acc: 0.9691     
+Epoch 193/200
+97/97 [==============================] - 0s - loss: 0.2709 - acc: 0.9485     
+Epoch 194/200
+97/97 [==============================] - 0s - loss: 0.2426 - acc: 0.9588     
+Epoch 195/200
+97/97 [==============================] - 0s - loss: 0.2430 - acc: 1.0000     
+Epoch 196/200
+97/97 [==============================] - 0s - loss: 0.2764 - acc: 0.9691     
+Epoch 197/200
+97/97 [==============================] - 0s - loss: 0.2492 - acc: 0.9794     
+Epoch 198/200
+97/97 [==============================] - 0s - loss: 0.2762 - acc: 0.9588     
+Epoch 199/200
+97/97 [==============================] - 0s - loss: 0.2410 - acc: 0.9794     
+Epoch 200/200
+97/97 [==============================] - 0s - loss: 0.2556 - acc: 0.9485     
+INFO:rasa_core.policies.keras_policy:Done fitting keras policy model
+Bot loaded. Type a message and press enter: 
+
+yazzzzzaaaaaa
+------
+Chat history:
+
+        bot did:        None
+
+        bot did:        action_listen
+
+        user said:      yazzzzzaaaaaa
+
+                 whose intent is:       book_room
+
+we currently have slots: day: None, duration: None, hour_start: None, name_room: None
+
+------
+The bot wants to [action_listen] due to the intent. Is this correct?
+
+
+	1.	Yes
+	2.	No, intent is right but the action is wrong
+	3.	The intent is wrong
+	0.	Export current conversations as stories and quit
+3
+------
+
+Message:
+
+yazzzzzaaaaaa
+User said:       yazzzzzaaaaaa
+What intent is this?    
+        0       book_room
+        1       goodbye
+        2       greet
+
+2
+------
+Chat history:
+
+        bot did:        None
+
+we currently have slots: day: None, duration: None, hour_start: None, name_room: None
+
+------
+The bot wants to [action_listen]. Is this correct?
+
+
+	1.	Yes.
+	2.	No, the action is wrong.
+	0.	Export current conversations as stories and quit
+2
+------
+Chat history:
+
+        bot did:        None
+
+we currently have slots: day: None, duration: None, hour_start: None, name_room: None
+
+------
+what is the next action for the bot?
+
+         0                           action_listen    0.67
+         1                          action_restart    0.09
+         2                 action_default_fallback    0.10
+         3                             utter_greet    0.27
+         4                           utter_goodbye    0.31
+         5                          utter_ask_room    0.30
+         6                           utter_ask_day    0.27
+         7                    utter_ask_hour_start    0.24
+         8                      utter_ask_duration    0.18
+         9                             action_room    0.31
+
+3
+thanks! The bot will now [utter_greet]
+ -----------
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 1/1 [00:00<00:00, 997.22it/s, # actions=1]
+INFO:rasa_core.featurizers:Created 1 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2497.80it/s, # actions=44]
+INFO:rasa_core.featurizers:Created 44 action examples.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\cntk\core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input4") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+  (sample.dtype, var.uid, str(var.dtype)))
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.39it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1665.46it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.64it/s, # actions=50]
+INFO:rasa_core.featurizers:Created 50 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2498.99it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2526.38it/s, # actions=42]
+INFO:rasa_core.featurizers:Created 42 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.42it/s, # actions=42]
+INFO:rasa_core.featurizers:Created 42 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.54it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.12it/s, # actions=48]
+INFO:rasa_core.featurizers:Created 48 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.64it/s, # actions=48]
+INFO:rasa_core.featurizers:Created 48 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1666.52it/s, # actions=40]
+INFO:rasa_core.featurizers:Created 40 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.76it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.42it/s, # actions=48]
+INFO:rasa_core.featurizers:Created 48 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2511.56it/s, # actions=42]
+INFO:rasa_core.featurizers:Created 42 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.91it/s, # actions=50]
+INFO:rasa_core.featurizers:Created 50 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.69it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.39it/s, # actions=45]
+INFO:rasa_core.featurizers:Created 45 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1668.51it/s, # actions=52]
+INFO:rasa_core.featurizers:Created 52 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1665.07it/s, # actions=42]
+INFO:rasa_core.featurizers:Created 42 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.61it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.31it/s, # actions=44]
+INFO:rasa_core.featurizers:Created 44 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2507.66it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.57it/s, # actions=38]
+INFO:rasa_core.featurizers:Created 38 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1254.88it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2498.39it/s, # actions=42]
+INFO:rasa_core.featurizers:Created 42 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.91it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1664.41it/s, # actions=48]
+INFO:rasa_core.featurizers:Created 48 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1672.77it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.84it/s, # actions=50]
+INFO:rasa_core.featurizers:Created 50 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.32it/s, # actions=50]
+INFO:rasa_core.featurizers:Created 50 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1668.38it/s, # actions=49]
+INFO:rasa_core.featurizers:Created 49 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1666.66it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1670.37it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.24it/s, # actions=42]
+INFO:rasa_core.featurizers:Created 42 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2485.07it/s, # actions=38]
+INFO:rasa_core.featurizers:Created 38 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2500.48it/s, # actions=36]
+INFO:rasa_core.featurizers:Created 36 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1666.13it/s, # actions=38]
+INFO:rasa_core.featurizers:Created 38 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2503.17it/s, # actions=40]
+INFO:rasa_core.featurizers:Created 40 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1665.99it/s, # actions=58]
+INFO:rasa_core.featurizers:Created 58 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2499.59it/s, # actions=40]
+INFO:rasa_core.featurizers:Created 40 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1666.26it/s, # actions=36]
+INFO:rasa_core.featurizers:Created 36 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.98it/s, # actions=48]
+INFO:rasa_core.featurizers:Created 48 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1247.56it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.84it/s, # actions=44]
+INFO:rasa_core.featurizers:Created 44 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2501.37it/s, # actions=36]
+INFO:rasa_core.featurizers:Created 36 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.57it/s, # actions=47]
+INFO:rasa_core.featurizers:Created 47 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.18it/s, # actions=38]
+INFO:rasa_core.featurizers:Created 38 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1669.18it/s, # actions=49]
+INFO:rasa_core.featurizers:Created 49 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2498.69it/s, # actions=44]
+INFO:rasa_core.featurizers:Created 44 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1668.64it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+YAZZZZZZAAAAA ! ...  How can I help you ?
+------
+Chat history:
+
+        bot did:        None
+
+        bot did:        utter_greet
+
+we currently have slots: day: None, duration: None, hour_start: None, name_room: None
+
+------
+The bot wants to [action_listen]. Is this correct?
+
+
+	1.	Yes.
+	2.	No, the action is wrong.
+	0.	Export current conversations as stories and quit
+1
+Next user input:
+
+i want a room
+------
+Chat history:
+
+        bot did:        None
+
+        bot did:        utter_greet
+
+        bot did:        action_listen
+
+        user said:      i want a room
+
+                 whose intent is:       book_room
+
+we currently have slots: day: None, duration: None, hour_start: None, name_room: None
+
+------
+The bot wants to [utter_ask_room] due to the intent. Is this correct?
+
+
+	1.	Yes
+	2.	No, intent is right but the action is wrong
+	3.	The intent is wrong
+	0.	Export current conversations as stories and quit
+1
+In what room?
+------
+Chat history:
+
+        bot did:        utter_greet
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        bot did:        utter_ask_room
+
+we currently have slots: day: None, duration: None, hour_start: None, name_room: None
+
+------
+The bot wants to [action_listen]. Is this correct?
+
+
+	1.	Yes.
+	2.	No, the action is wrong.
+	0.	Export current conversations as stories and quit
+1
+Next user input:
+
+red
+------
+Chat history:
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        bot did:        utter_ask_room
+
+        bot did:        action_listen
+
+        user said:      red
+
+                 whose intent is:       book_room
+
+        with name_room: red
+
+we currently have slots: day: None, duration: None, hour_start: None, name_room: red
+
+------
+The bot wants to [utter_ask_day] due to the intent. Is this correct?
+
+
+	1.	Yes
+	2.	No, intent is right but the action is wrong
+	3.	The intent is wrong
+	0.	Export current conversations as stories and quit
+1
+What day?
+------
+Chat history:
+
+        bot did:        utter_ask_room
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with name_room: red
+
+        bot did:        utter_ask_day
+
+we currently have slots: day: None, duration: None, hour_start: None, name_room: red
+
+------
+The bot wants to [action_listen]. Is this correct?
+
+
+	1.	Yes.
+	2.	No, the action is wrong.
+	0.	Export current conversations as stories and quit
+1
+Next user input:
+
+tomorrow
+------
+Chat history:
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with name_room: red
+
+        bot did:        utter_ask_day
+
+        bot did:        action_listen
+
+        user said:      tomorrow
+
+                 whose intent is:       book_room
+
+        with day:       tomorrow
+
+we currently have slots: day: tomorrow, duration: None, hour_start: None, name_room: red
+
+------
+The bot wants to [utter_ask_hour_start] due to the intent. Is this correct?
+
+
+	1.	Yes
+	2.	No, intent is right but the action is wrong
+	3.	The intent is wrong
+	0.	Export current conversations as stories and quit
+1
+What time do you want to start your meeting?
+------
+Chat history:
+
+        bot did:        utter_ask_day
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with day:       tomorrow
+
+        bot did:        utter_ask_hour_start
+
+we currently have slots: day: tomorrow, duration: None, hour_start: None, name_room: red
+
+------
+The bot wants to [action_listen]. Is this correct?
+
+
+	1.	Yes.
+	2.	No, the action is wrong.
+	0.	Export current conversations as stories and quit
+1
+Next user input:
+
+14h
+------
+Chat history:
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with day:       tomorrow
+
+        bot did:        utter_ask_hour_start
+
+        bot did:        action_listen
+
+        user said:      14h
+
+                 whose intent is:       book_room
+
+        with hour_start:        14h
+
+we currently have slots: day: tomorrow, duration: None, hour_start: 14h, name_room: red
+
+------
+The bot wants to [utter_ask_duration] due to the intent. Is this correct?
+
+
+	1.	Yes
+	2.	No, intent is right but the action is wrong
+	3.	The intent is wrong
+	0.	Export current conversations as stories and quit
+1
+How long would you need ?
+------
+Chat history:
+
+        bot did:        utter_ask_hour_start
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with hour_start:        14h
+
+        bot did:        utter_ask_duration
+
+we currently have slots: day: tomorrow, duration: None, hour_start: 14h, name_room: red
+
+------
+The bot wants to [action_listen]. Is this correct?
+
+
+	1.	Yes.
+	2.	No, the action is wrong.
+	0.	Export current conversations as stories and quit
+1
+Next user input:
+
+2h
+------
+Chat history:
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with hour_start:        14h
+
+        bot did:        utter_ask_duration
+
+        bot did:        action_listen
+
+        user said:      2h
+
+                 whose intent is:       book_room
+
+        with hour_start:        2h
+
+we currently have slots: day: tomorrow, duration: None, hour_start: 2h, name_room: red
+
+------
+The bot wants to [action_room] due to the intent. Is this correct?
+
+
+	1.	Yes
+	2.	No, intent is right but the action is wrong
+	3.	The intent is wrong
+	0.	Export current conversations as stories and quit
+2
+------
+Chat history:
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with hour_start:        14h
+
+        bot did:        utter_ask_duration
+
+        bot did:        action_listen
+
+        user said:      2h
+
+                 whose intent is:       book_room
+
+        with hour_start:        2h
+
+we currently have slots: day: tomorrow, duration: None, hour_start: 2h, name_room: red
+
+------
+what is the next action for the bot?
+
+         0                           action_listen    0.01
+         1                          action_restart    0.00
+         2                 action_default_fallback    0.00
+         3                             utter_greet    0.01
+         4                           utter_goodbye    0.02
+         5                          utter_ask_room    0.00
+         6                           utter_ask_day    0.00
+         7                    utter_ask_hour_start    0.00
+         8                      utter_ask_duration    0.06
+         9                             action_room    1.00
+
+7
+thanks! The bot will now [utter_ask_hour_start]
+ -----------
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 1/1 [00:00<00:00, 991.56it/s, # actions=11]
+INFO:rasa_core.featurizers:Created 11 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1668.11it/s, # actions=48]
+INFO:rasa_core.featurizers:Created 48 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 999.98it/s, # actions=66]
+INFO:rasa_core.featurizers:Created 66 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 832.90it/s, # actions=58]
+INFO:rasa_core.featurizers:Created 58 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.99it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1248.60it/s, # actions=60]
+INFO:rasa_core.featurizers:Created 60 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.69it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.42it/s, # actions=66]
+INFO:rasa_core.featurizers:Created 66 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1254.80it/s, # actions=58]
+INFO:rasa_core.featurizers:Created 58 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.07it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1003.61it/s, # actions=58]
+INFO:rasa_core.featurizers:Created 58 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1668.38it/s, # actions=64]
+INFO:rasa_core.featurizers:Created 64 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.45it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.61it/s, # actions=60]
+INFO:rasa_core.featurizers:Created 60 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1251.66it/s, # actions=60]
+INFO:rasa_core.featurizers:Created 60 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.84it/s, # actions=64]
+INFO:rasa_core.featurizers:Created 64 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.93it/s, # actions=48]
+INFO:rasa_core.featurizers:Created 48 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1251.21it/s, # actions=58]
+INFO:rasa_core.featurizers:Created 58 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1001.79it/s, # actions=58]
+INFO:rasa_core.featurizers:Created 58 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.69it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.98it/s, # actions=52]
+INFO:rasa_core.featurizers:Created 52 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.17it/s, # actions=64]
+INFO:rasa_core.featurizers:Created 64 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1666.92it/s, # actions=66]
+INFO:rasa_core.featurizers:Created 66 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 999.93it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.09it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1001.36it/s, # actions=70]
+INFO:rasa_core.featurizers:Created 70 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 996.32it/s, # actions=64]
+INFO:rasa_core.featurizers:Created 64 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 833.69it/s, # actions=64]
+INFO:rasa_core.featurizers:Created 64 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1251.06it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1256.83it/s, # actions=52]
+INFO:rasa_core.featurizers:Created 52 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.72it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1669.44it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 999.12it/s, # actions=72]
+INFO:rasa_core.featurizers:Created 72 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 833.26it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1001.03it/s, # actions=70]
+INFO:rasa_core.featurizers:Created 70 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 2499.88it/s, # actions=59]
+INFO:rasa_core.featurizers:Created 59 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.49it/s, # actions=59]
+INFO:rasa_core.featurizers:Created 59 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1251.36it/s, # actions=60]
+INFO:rasa_core.featurizers:Created 60 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1670.11it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.54it/s, # actions=60]
+INFO:rasa_core.featurizers:Created 60 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1251.58it/s, # actions=44]
+INFO:rasa_core.featurizers:Created 44 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.26it/s, # actions=60]
+INFO:rasa_core.featurizers:Created 60 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1665.73it/s, # actions=44]
+INFO:rasa_core.featurizers:Created 44 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.94it/s, # actions=66]
+INFO:rasa_core.featurizers:Created 66 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.61it/s, # actions=66]
+INFO:rasa_core.featurizers:Created 66 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.57it/s, # actions=66]
+INFO:rasa_core.featurizers:Created 66 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1674.11it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1665.33it/s, # actions=40]
+INFO:rasa_core.featurizers:Created 40 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1665.07it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.54it/s, # actions=52]
+INFO:rasa_core.featurizers:Created 52 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1666.39it/s, # actions=55]
+INFO:rasa_core.featurizers:Created 55 action examples.
+What time do you want to start your meeting?
+------
+Chat history:
+
+        bot did:        utter_ask_duration
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with hour_start:        2h
+
+        bot did:        utter_ask_hour_start
+
+we currently have slots: day: tomorrow, duration: None, hour_start: 2h, name_room: red
+
+------
+The bot wants to [action_listen]. Is this correct?
+
+
+	1.	Yes.
+	2.	No, the action is wrong.
+	0.	Export current conversations as stories and quit
+1
+Next user input:
+
+14h
+------
+Chat history:
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with hour_start:        2h
+
+        bot did:        utter_ask_hour_start
+
+        bot did:        action_listen
+
+        user said:      14h
+
+                 whose intent is:       book_room
+
+        with hour_start:        14h
+
+we currently have slots: day: tomorrow, duration: None, hour_start: 14h, name_room: red
+
+------
+The bot wants to [action_room] due to the intent. Is this correct?
+
+
+	1.	Yes
+	2.	No, intent is right but the action is wrong
+	3.	The intent is wrong
+	0.	Export current conversations as stories and quit
+2
+------
+Chat history:
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with hour_start:        2h
+
+        bot did:        utter_ask_hour_start
+
+        bot did:        action_listen
+
+        user said:      14h
+
+                 whose intent is:       book_room
+
+        with hour_start:        14h
+
+we currently have slots: day: tomorrow, duration: None, hour_start: 14h, name_room: red
+
+------
+what is the next action for the bot?
+
+         0                           action_listen    0.01
+         1                          action_restart    0.00
+         2                 action_default_fallback    0.00
+         3                             utter_greet    0.04
+         4                           utter_goodbye    0.17
+         5                          utter_ask_room    0.04
+         6                           utter_ask_day    0.01
+         7                    utter_ask_hour_start    0.03
+         8                      utter_ask_duration    0.08
+         9                             action_room    0.98
+
+8
+thanks! The bot will now [utter_ask_duration]
+ -----------
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 1/1 [00:00<00:00, 997.46it/s, # actions=13]
+INFO:rasa_core.featurizers:Created 13 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.93it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.64it/s, # actions=60]
+INFO:rasa_core.featurizers:Created 60 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1245.27it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.98it/s, # actions=64]
+INFO:rasa_core.featurizers:Created 64 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.09it/s, # actions=70]
+INFO:rasa_core.featurizers:Created 70 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.72it/s, # actions=63]
+INFO:rasa_core.featurizers:Created 63 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.60it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1668.25it/s, # actions=41]
+INFO:rasa_core.featurizers:Created 41 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 996.79it/s, # actions=58]
+INFO:rasa_core.featurizers:Created 58 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1003.28it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.05it/s, # actions=50]
+INFO:rasa_core.featurizers:Created 50 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.35it/s, # actions=48]
+INFO:rasa_core.featurizers:Created 48 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1666.26it/s, # actions=38]
+INFO:rasa_core.featurizers:Created 38 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.09it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1248.08it/s, # actions=69]
+INFO:rasa_core.featurizers:Created 69 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1002.41it/s, # actions=50]
+INFO:rasa_core.featurizers:Created 50 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.18it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.02it/s, # actions=66]
+INFO:rasa_core.featurizers:Created 66 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 833.36it/s, # actions=50]
+INFO:rasa_core.featurizers:Created 50 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.41it/s, # actions=54]
+INFO:rasa_core.featurizers:Created 54 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 999.69it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1674.24it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.65it/s, # actions=60]
+INFO:rasa_core.featurizers:Created 60 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1668.51it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.32it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.39it/s, # actions=42]
+INFO:rasa_core.featurizers:Created 42 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.32it/s, # actions=42]
+INFO:rasa_core.featurizers:Created 42 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.31it/s, # actions=64]
+INFO:rasa_core.featurizers:Created 64 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1666.52it/s, # actions=58]
+INFO:rasa_core.featurizers:Created 58 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.20it/s, # actions=52]
+INFO:rasa_core.featurizers:Created 52 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.87it/s, # actions=58]
+INFO:rasa_core.featurizers:Created 58 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.69it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.39it/s, # actions=64]
+INFO:rasa_core.featurizers:Created 64 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1248.60it/s, # actions=64]
+INFO:rasa_core.featurizers:Created 64 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.74it/s, # actions=52]
+INFO:rasa_core.featurizers:Created 52 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.31it/s, # actions=66]
+INFO:rasa_core.featurizers:Created 66 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.54it/s, # actions=66]
+INFO:rasa_core.featurizers:Created 66 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1000.55it/s, # actions=46]
+INFO:rasa_core.featurizers:Created 46 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1666.66it/s, # actions=64]
+INFO:rasa_core.featurizers:Created 64 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1003.66it/s, # actions=66]
+INFO:rasa_core.featurizers:Created 66 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.98it/s, # actions=44]
+INFO:rasa_core.featurizers:Created 44 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.76it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.09it/s, # actions=50]
+INFO:rasa_core.featurizers:Created 50 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1665.46it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 999.69it/s, # actions=61]
+INFO:rasa_core.featurizers:Created 61 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.31it/s, # actions=56]
+INFO:rasa_core.featurizers:Created 56 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1667.72it/s, # actions=50]
+INFO:rasa_core.featurizers:Created 50 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1249.72it/s, # actions=62]
+INFO:rasa_core.featurizers:Created 62 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1250.69it/s, # actions=60]
+INFO:rasa_core.featurizers:Created 60 action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+Processed trackers: 100%|██████████| 5/5 [00:00<00:00, 1252.03it/s, # actions=58]
+INFO:rasa_core.featurizers:Created 58 action examples.
+How long would you need ?
+------
+Chat history:
+
+        bot did:        utter_ask_hour_start
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with hour_start:        14h
+
+        bot did:        utter_ask_duration
+
+we currently have slots: day: tomorrow, duration: None, hour_start: 14h, name_room: red
+
+------
+The bot wants to [action_listen]. Is this correct?
+
+
+	1.	Yes.
+	2.	No, the action is wrong.
+	0.	Export current conversations as stories and quit
+1
+Next user input:
+
+2 hours
+------
+Chat history:
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with hour_start:        14h
+
+        bot did:        utter_ask_duration
+
+        bot did:        action_listen
+
+        user said:      2 hours
+
+                 whose intent is:       book_room
+
+        with duration:  2 hours
+
+we currently have slots: day: tomorrow, duration: 2 hours, hour_start: 14h, name_room: red
+
+------
+The bot wants to [action_room] due to the intent. Is this correct?
+
+
+	1.	Yes
+	2.	No, intent is right but the action is wrong
+	3.	The intent is wrong
+	0.	Export current conversations as stories and quit
+1
+__________________
+make_a_booking begin
+__________________
+check if the room is available
+variables at the beginning
+day_only 2018-08-31
+day_startinghour 2018-08-31T14:00:00+00:00
+day_only 2018-08-31T16:00:00+00:00
+name_room red
+room_list  ['red']
+0
+name_room  red
+room database  red
+is the same room
+starting_hour_list[i]  (2018, 8, 31, 14, 0)
+asked_starting_hour  (2018, 8, 31, 14, 0)
+ending_hour_list[i]  (2018, 8, 31, 16, 0)
+asked_ending_hour  (2018, 8, 31, 16, 0)
+starting hour is between
+end of the function
+the room is taken
+The red room is booked on tomorrow at 14h for 2 hours. Is it correct ? :-) 
+False
+------
+Chat history:
+
+        bot did:        utter_ask_duration
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with duration:  2 hours
+
+        bot did:        action_room
+
+we currently have slots: day: tomorrow, duration: 2 hours, hour_start: 14h, name_room: red
+
+------
+The bot wants to [action_listen]. Is this correct?
+
+
+	1.	Yes.
+	2.	No, the action is wrong.
+	0.	Export current conversations as stories and quit
+1
+Next user input:
+
+fine, good bye
+------
+Chat history:
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        with duration:  2 hours
+
+        bot did:        action_room
+
+        bot did:        action_listen
+
+        user said:      fine, good bye
+
+                 whose intent is:       book_room
+
+we currently have slots: day: tomorrow, duration: 2 hours, hour_start: 14h, name_room: red
+
+------
+The bot wants to [utter_goodbye] due to the intent. Is this correct?
+
+
+	1.	Yes
+	2.	No, intent is right but the action is wrong
+	3.	The intent is wrong
+	0.	Export current conversations as stories and quit
+1
+Bye :(
+------
+Chat history:
+
+        bot did:        action_room
+
+        bot did:        action_listen
+
+        user did:       book_room
+
+        bot did:        utter_goodbye
+
+we currently have slots: day: tomorrow, duration: 2 hours, hour_start: 14h, name_room: red
+
+------
+The bot wants to [action_listen]. Is this correct?
+
+
+	1.	Yes.
+	2.	No, the action is wrong.
+	0.	Export current conversations as stories and quit
+0
+
+File to export to (if file exists, this will append the stories) [stories.md]: story6
+INFO:rasa_core.policies.online_trainer:Stories got exported to 'C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818\story6'.

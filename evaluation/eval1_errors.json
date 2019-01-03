@@ -1,0 +1,116 @@
+{
+    "intent_errors": [
+        {
+            "text": "Hello Alex ",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.6084447478050713
+            }
+        },
+        {
+            "text": "Hi Alex ! ",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.6558489842810393
+            }
+        },
+        {
+            "text": "YAZZZAAAAAAA",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8741999292256442
+            }
+        },
+        {
+            "text": "Hi ! ",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.49541657845131626
+            }
+        },
+        {
+            "text": "Heya ",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8741999292256442
+            }
+        },
+        {
+            "text": "Hellooooooo",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8741999292256442
+            }
+        },
+        {
+            "text": "Hey",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.5081297092496521
+            }
+        },
+        {
+            "text": "Bye :(",
+            "intent": "goodbye",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.4511447497477555
+            }
+        },
+        {
+            "text": "Goodbye  :(",
+            "intent": "goodbye",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.4660071028333184
+            }
+        },
+        {
+            "text": "bye bye  :(",
+            "intent": "goodbye",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.4511447497477555
+            }
+        },
+        {
+            "text": "See ya !",
+            "intent": "goodbye",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.4510495211370612
+            }
+        },
+        {
+            "text": "See you later ! ",
+            "intent": "goodbye",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.467168042720299
+            }
+        },
+        {
+            "text": "Good morning Alex !",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.6905136475501734
+            }
+        },
+        {
+            "text": "Good afternoon Alex !",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.70187963891503
+            }
+        }
+    ]
+}

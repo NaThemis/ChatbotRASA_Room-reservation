@@ -1,0 +1,45 @@
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate --data models/nlu/default/roomnlu/training_data.json --model models/nlu/default/roomnlu
+2018-09-03 00:14:40 INFO     rasa_nlu.components  - Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+2018-09-03 00:14:41 INFO     rasa_nlu.training_data.loading  - Training data format of models/nlu/default/roomnlu/training_data.json is rasa_nlu
+2018-09-03 00:14:41 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 187 (3 distinct intents)
+        - Found intents: 'greet', 'goodbye', 'book_room'
+        - entity examples: 85 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+2018-09-03 00:14:41 INFO     __main__  - Intent evaluation results:
+2018-09-03 00:14:41 INFO     __main__  - Intent Evaluation: Only considering those 187 examples that have a defined intent out of 187 examples
+2018-09-03 00:14:41 INFO     __main__  - F1-Score:  1.0
+2018-09-03 00:14:41 INFO     __main__  - Precision: 1.0
+2018-09-03 00:14:41 INFO     __main__  - Accuracy:  1.0
+2018-09-03 00:14:41 INFO     __main__  - Classification report:
+             precision    recall  f1-score   support
+
+  book_room       1.00      1.00      1.00       132
+    goodbye       1.00      1.00      1.00         5
+      greet       1.00      1.00      1.00        50
+
+avg / total       1.00      1.00      1.00       187
+
+2018-09-03 00:14:41 INFO     __main__  - No prediction errors were found. You are AWESOME!
+2018-09-03 00:14:42 INFO     __main__  - Confusion matrix, without normalization:
+[[132   0   0]
+ [  0   5   0]
+ [  0   0  50]]
+2018-09-03 00:16:03 INFO     __main__  - Entity evaluation results:
+2018-09-03 00:16:03 INFO     __main__  - Evaluation for entity extractor: ner_crf
+2018-09-03 00:16:03 INFO     __main__  - F1-Score:  0.9957331625825109
+2018-09-03 00:16:03 INFO     __main__  - Precision: 0.9958608493531833
+2018-09-03 00:16:03 INFO     __main__  - Accuracy:  0.9957264957264957
+2018-09-03 00:16:03 INFO     __main__  - Classification report:
+             precision    recall  f1-score   support
+
+        day       1.00      0.96      0.98        50
+   duration       1.00      1.00      1.00        26
+ hour_start       1.00      1.00      1.00        30
+  name_room       0.91      1.00      0.95        10
+  no_entity       1.00      1.00      1.00       586
+
+avg / total       1.00      1.00      1.00       702
+
+2018-09-03 00:16:03 INFO     __main__  - Finished evaluation

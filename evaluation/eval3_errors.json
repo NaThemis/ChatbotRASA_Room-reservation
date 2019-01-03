@@ -1,0 +1,76 @@
+{
+    "intent_errors": [
+        {
+            "text": "YAZZZAAAAAAA",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8703061867942053
+            }
+        },
+        {
+            "text": "Heya ",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8703061867942053
+            }
+        },
+        {
+            "text": "Hellooooooo",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8703061867942053
+            }
+        },
+        {
+            "text": "goodmorning",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8703061867942053
+            }
+        },
+        {
+            "text": "goodevening",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8703061867942053
+            }
+        },
+        {
+            "text": "goodafternoon",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8703061867942053
+            }
+        },
+        {
+            "text": "Bonjour Alex",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8703061867942053
+            }
+        },
+        {
+            "text": "Hellooooooo Alex",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8703061867942053
+            }
+        },
+        {
+            "text": "Coucouuuuuuuuu",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "book_room",
+                "confidence": 0.8703061867942053
+            }
+        }
+    ]
+}

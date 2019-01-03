@@ -1,0 +1,482 @@
+(base) C:\Users\Nathalie Fouet\Desktop\Chatbot_Alex_room_270818>python -m rasa_nlu.evaluate --data models/nlu/default/roomnlu/training_data.json --config config_spacy.json --mode crossvalidation
+2018-09-02 21:11:13 INFO     rasa_nlu.training_data.loading  - Training data format of models/nlu/default/roomnlu/training_data.json is rasa_nlu
+2018-09-02 21:11:13 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 171 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 97 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+2018-09-02 21:11:13 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 171 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 97 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+2018-09-02 21:11:13 INFO     rasa_nlu.utils.spacy_utils  - Trying to load spacy model with name 'en'
+2018-09-02 21:11:19 INFO     rasa_nlu.components  - Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\model_selection\_split.py:605: Warning: The least populated class in y has only 5 members, which is too few. The minimum number of members in any class cannot be less than n_splits=10.
+  % (min_groups, self.n_splits)), Warning)
+2018-09-02 21:11:19 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 152 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 86 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'goodbye' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'name_room' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-09-02 21:11:19 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 19 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 11 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+2018-09-02 21:11:19 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-09-02 21:11:19 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:19 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-09-02 21:11:19 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:19 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-09-02 21:11:19 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:19 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-09-02 21:11:20 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:20 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-09-02 21:11:20 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:20 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-09-02 21:11:20 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:20 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.2s finished
+2018-09-02 21:11:20 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-09-02 21:11:21 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 153 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 87 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'duration' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-09-02 21:11:21 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 18 (2 distinct intents)
+        - Found intents: 'greet', 'book_room'
+        - entity examples: 10 (3 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day'
+
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:21 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.2s finished
+2018-09-02 21:11:22 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-09-02 21:11:22 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 153 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 87 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'goodbye' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+2018-09-02 21:11:22 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 18 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 10 (3 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day'
+
+2018-09-02 21:11:22 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-09-02 21:11:22 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:22 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-09-02 21:11:22 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:22 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-09-02 21:11:22 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:22 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-09-02 21:11:22 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:22 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-09-02 21:11:23 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:23 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-09-02 21:11:23 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:23 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.2s finished
+2018-09-02 21:11:23 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-09-02 21:11:24 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 154 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 87 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+2018-09-02 21:11:24 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 17 (2 distinct intents)
+        - Found intents: 'greet', 'book_room'
+        - entity examples: 10 (3 distinct entities)
+        - found entities: 'hour_start', 'day', 'name_room'
+
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:24 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.3s finished
+2018-09-02 21:11:25 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1137: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1137: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+2018-09-02 21:11:25 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 154 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 87 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'goodbye' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'day' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'name_room' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-09-02 21:11:25 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 17 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 10 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+2018-09-02 21:11:25 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-09-02 21:11:25 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:25 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-09-02 21:11:25 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:25 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-09-02 21:11:25 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:25 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-09-02 21:11:25 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:25 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-09-02 21:11:26 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:26 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-09-02 21:11:26 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:26 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.3s finished
+2018-09-02 21:11:26 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2018-09-02 21:11:27 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 154 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 88 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'goodbye' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+2018-09-02 21:11:27 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 17 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 9 (3 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day'
+
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:27 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.3s finished
+2018-09-02 21:11:28 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:28 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 155 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 87 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'hour_start' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-09-02 21:11:28 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 16 (2 distinct intents)
+        - Found intents: 'greet', 'book_room'
+        - entity examples: 10 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+2018-09-02 21:11:28 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-09-02 21:11:28 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:28 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-09-02 21:11:28 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:28 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-09-02 21:11:28 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:28 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-09-02 21:11:28 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:28 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-09-02 21:11:29 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:29 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-09-02 21:11:29 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:29 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.2s finished
+2018-09-02 21:11:29 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:30 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 154 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 89 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:186: UserWarning: Intent 'goodbye' has only 1 training examples! Minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_INTENT))
+2018-09-02 21:11:30 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 17 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 8 (3 distinct entities)
+        - found entities: 'duration', 'hour_start', 'name_room'
+
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:30 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.3s finished
+2018-09-02 21:11:31 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:31 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 155 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 88 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'day' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'name_room' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-09-02 21:11:31 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 16 (2 distinct intents)
+        - Found intents: 'greet', 'book_room'
+        - entity examples: 9 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+2018-09-02 21:11:31 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-09-02 21:11:31 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:31 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-09-02 21:11:31 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:31 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-09-02 21:11:31 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:31 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-09-02 21:11:31 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:31 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-09-02 21:11:32 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:32 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-09-02 21:11:32 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:32 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.3s finished
+2018-09-02 21:11:32 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:32 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 155 (3 distinct intents)
+        - Found intents: 'greet', 'book_room', 'goodbye'
+        - entity examples: 87 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\rasa_nlu\training_data\training_data.py:194: UserWarning: Entity 'name_room' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2018-09-02 21:11:32 INFO     rasa_nlu.training_data.training_data  - Training data stats:
+        - intent examples: 16 (2 distinct intents)
+        - Found intents: 'greet', 'book_room'
+        - entity examples: 10 (4 distinct entities)
+        - found entities: 'duration', 'hour_start', 'day', 'name_room'
+
+2018-09-02 21:11:32 INFO     rasa_nlu.model  - Starting to train component nlp_spacy
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Starting to train component tokenizer_spacy
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Starting to train component intent_featurizer_spacy
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Starting to train component intent_entity_featurizer_regex
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Finished training component.
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Starting to train component intent_classifier_sklearn
+Fitting 2 folds for each of 6 candidates, totalling 12 fits
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+[Parallel(n_jobs=1)]: Done  12 out of  12 | elapsed:    0.3s finished
+2018-09-02 21:11:33 INFO     rasa_nlu.model  - Finished training component.
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1137: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+C:\Users\Nathalie Fouet\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1137: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+2018-09-02 21:11:34 INFO     __main__  - CV evaluation (n=10)
+2018-09-02 21:11:34 INFO     __main__  - Intent evaluation results
+2018-09-02 21:11:34 INFO     __main__  - train Accuracy: 0.914 (0.010)
+2018-09-02 21:11:34 INFO     __main__  - train F1-score: 0.911 (0.014)
+2018-09-02 21:11:34 INFO     __main__  - train Precision: 0.919 (0.018)
+2018-09-02 21:11:34 INFO     __main__  - test Accuracy: 0.879 (0.084)
+2018-09-02 21:11:34 INFO     __main__  - test F1-score: 0.871 (0.087)
+2018-09-02 21:11:34 INFO     __main__  - test Precision: 0.885 (0.083)
+2018-09-02 21:11:34 INFO     __main__  - Entity evaluation results
+2018-09-02 21:11:34 INFO     __main__  - Entity extractor: ner_crf
+2018-09-02 21:11:34 INFO     __main__  - train Accuracy: 0.998 (0.001)
+2018-09-02 21:11:34 INFO     __main__  - train F1-score: 0.998 (0.001)
+2018-09-02 21:11:34 INFO     __main__  - train Precision: 0.998 (0.001)
+2018-09-02 21:11:34 INFO     __main__  - Entity extractor: ner_crf
+2018-09-02 21:11:34 INFO     __main__  - test Accuracy: 0.939 (0.040)
+2018-09-02 21:11:34 INFO     __main__  - test F1-score: 0.936 (0.045)
+2018-09-02 21:11:34 INFO     __main__  - test Precision: 0.950 (0.043)
+2018-09-02 21:11:34 INFO     __main__  - Finished evaluation
