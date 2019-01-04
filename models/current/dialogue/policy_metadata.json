@@ -2,16 +2,16 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "day",
+        "name_room",
         "hour_start",
         "duration",
-        "name_room"
+        "day"
       ]
     },
-    "action_room": {
+    "utter_goodbye": {
       "slots": []
     },
-    "utter_goodbye": {
+    "action_room": {
       "slots": []
     },
     "utter_greet": {
@@ -21,11 +21,13 @@
   "rasa_core": "0.11.12",
   "python": "3.6.0",
   "max_histories": [
-    5,
-    5
+    null,
+    3,
+    3
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
+    "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy"
   ]

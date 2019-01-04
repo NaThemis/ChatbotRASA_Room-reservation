@@ -2,13 +2,13 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import unicode_literals
 
-from rasa_core.actions.action import Action
-from rasa_core.events import SlotSet
+from rasa_core_sdk import Action
+from rasa_core_sdk.events import SlotSet
 
 from booking import make_a_booking
 import mysql.connector
 
-
+print("action module loaded")
 
 class ActionRoom(Action):
 
@@ -16,7 +16,7 @@ class ActionRoom(Action):
         return 'action_room'
 
     def run(self, dispatcher, tracker, domain):
-        
+        print("go fuck yourself")
         name_room = tracker.get_slot('name_room')
         day = tracker.get_slot('day')
         hour_start = tracker.get_slot('hour_start')
@@ -37,7 +37,7 @@ class ActionRoom(Action):
         duration = str(duration)
         
         #SQL queries#
-        cnx = mysql.connector.connect(password='root', user="root", database="alex")
+        cnx = mysql.connector.connect(host='35.189.228.223', password='root', user="nath", database="alex")
              
 
         dispatch = dispatcher.utter_message(response)

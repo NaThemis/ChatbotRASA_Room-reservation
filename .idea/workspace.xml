@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dcc18d4-2ed9-42e8-99e8-f066968037d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nlu_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/to_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/domain.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/domain.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_0_MemoizationPolicy/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_0_MemoizationPolicy/memorized_turns.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/keras_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/keras_policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/roomnlu/crf_model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/roomnlu/intent_classifier_sklearn.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/roomnlu/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/roomnlu/regex_featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/roomnlu/training_data.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +31,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dialogue_management_model.py">
+        <entry file="file://$PROJECT_DIR$/credentials.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="30">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nlu_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/policy.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/room_domain.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/alex_db.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-199">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -29,20 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/to_html.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_online.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="465">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -95,17 +140,21 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/train_init.py" />
         <option value="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/keras_policy.json" />
-        <option value="$PROJECT_DIR$/dialogue_management_model.py" />
         <option value="$PROJECT_DIR$/train_online.py" />
         <option value="$PROJECT_DIR$/nlu_config.yml.py" />
         <option value="$PROJECT_DIR$/nlu_config.yml" />
+        <option value="$PROJECT_DIR$/credentials.yml" />
+        <option value="$PROJECT_DIR$/actions.py" />
+        <option value="$PROJECT_DIR$/dialogue_management_model.py" />
+        <option value="$PROJECT_DIR$/config.yaml" />
+        <option value="$PROJECT_DIR$/room_domain.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1253" />
-    <option name="height" value="829" />
+    <option name="width" value="748" />
+    <option name="height" value="837" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -128,34 +177,32 @@
             <path>
               <item name="ChatbotRASA_Room-reservation" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChatbotRASA_Room-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatbotRASA_Room-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatbotRASA_Room-reservation" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ChatbotRASA_Room-reservation" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChatbotRASA_Room-reservation" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="current" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatbotRASA_Room-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatbotRASA_Room-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="current" type="462c0819:PsiDirectoryNode" />
               <item name="dialogue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ChatbotRASA_Room-reservation" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChatbotRASA_Room-reservation" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="current" type="462c0819:PsiDirectoryNode" />
               <item name="nlu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChatbotRASA_Room-reservation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChatbotRASA_Room-reservation" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="nlu" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChatbotRASA_Room-reservation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChatbotRASA_Room-reservation" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="nlu" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="roomnlu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,23 +348,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1253" height="829" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="748" height="837" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24277456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.41218132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6091644" visible="true" weight="0.32492998" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6091644" weight="0.32409972" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32971507" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.48787063" weight="0.24089636" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.48787063" visible="true" weight="0.900277" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.39083558" side_tool="true" weight="0.32630098" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49928468" weight="0.32630098" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49928468" weight="0.32548475" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -353,13 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commandes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11625">
-          <caret line="775" column="19" selection-start-line="775" selection-start-column="19" selection-end-line="775" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -401,13 +440,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/models/nlu/default/roomnlu/entity_synonyms.json" />
-    <entry file="file://$PROJECT_DIR$/config_spacy.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/nlu/default/roomnlu/training_data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -416,13 +448,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nlu_config.yml.py" />
-    <entry file="file://$PROJECT_DIR$/nlu_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nlu_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -436,6 +461,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/to_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commandes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="759" column="25" lean-forward="true" selection-start-line="759" selection-start-column="25" selection-end-line="759" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialogue_management_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/alex_db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_online.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -456,30 +522,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_online.py">
+    <entry file="file://$PROJECT_DIR$/credentials.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="30">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dialogue_management_model.py">
+    <entry file="file://$PROJECT_DIR$/exigences.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_spacy.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/to_html.py">
+    <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlu_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policy.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/dialogue/domain.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-370" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room_domain.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>

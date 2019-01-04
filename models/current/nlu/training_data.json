@@ -1,0 +1,1437 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello Alex "
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "Salut toi !"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey Alex, I need you !"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey, I reaaly need your help"
+      },
+      {
+        "intent": "greet",
+        "text": "Bonjour Alex, J'ai vraiment besoin de ton aide"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey Alex ! I need your help !"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello Alex !"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi Alex, can you help me ? "
+      },
+      {
+        "intent": "greet",
+        "text": "Hey Alex, I think you can help me for something"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi Alex, I think you can help me "
+      },
+      {
+        "intent": "greet",
+        "text": "Hello Alex, je crois que ton aide me sera précieuse !"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello Alex, can you help me ?  "
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning Alex !need U"
+      },
+      {
+        "intent": "greet",
+        "text": "Good afternoon Alex !"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi Alex ! "
+      },
+      {
+        "intent": "greet",
+        "text": "Hi ! "
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning Alex !"
+      },
+      {
+        "intent": "greet",
+        "text": "Good afternoon Alex !"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi Alex, I neeeed youuuuuuuuu"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello Alex, I really need something and I think you can help me !"
+      },
+      {
+        "intent": "greet",
+        "text": "Come on Alex, I need your help"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya Alex I reallllllly need your help"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello Alex, I need youuuuuuuuuuuuu"
+      },
+      {
+        "intent": "greet",
+        "text": "YAZZZAAAAAAA Alex ! I need your help !"
+      },
+      {
+        "intent": "greet",
+        "text": "I need you my dear Alex !"
+      },
+      {
+        "intent": "greet",
+        "text": "Alex ! I want something and you can help me ! "
+      },
+      {
+        "intent": "greet",
+        "text": "Hello Alex "
+      },
+      {
+        "intent": "greet",
+        "text": "Hi Alx ! "
+      },
+      {
+        "intent": "greet",
+        "text": "Alx ! I need you"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi ! i need you ! "
+      },
+      {
+        "intent": "greet",
+        "text": "Heya I need U"
+      },
+      {
+        "intent": "greet",
+        "text": "Hellooooooo Need U"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey, need U"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye :("
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye  :("
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye  :("
+      },
+      {
+        "intent": "goodbye",
+        "text": "See ya !"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later ! "
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "red",
+            "entity": "name_room"
+          }
+        ],
+        "text": "I wish to book the red room"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "blue",
+            "entity": "name_room"
+          }
+        ],
+        "text": "I would like to book the blue room"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "green",
+            "entity": "name_room"
+          }
+        ],
+        "text": "Can you book me the green room?"
+      },
+      {
+        "intent": "book_room",
+        "text": "I'd like to reserve a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "I would like to arrange a reservation room"
+      },
+      {
+        "intent": "book_room",
+        "text": "Can you reserve me a room ?"
+      },
+      {
+        "intent": "book_room",
+        "text": "I want to book the red room"
+      },
+      {
+        "intent": "book_room",
+        "text": "Hey, I want a room !"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "red",
+            "entity": "name_room"
+          }
+        ],
+        "text": "red"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "blue",
+            "entity": "name_room"
+          }
+        ],
+        "text": "blue"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "green",
+            "entity": "name_room"
+          }
+        ],
+        "text": "green"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "red",
+            "entity": "name_room"
+          }
+        ],
+        "text": "red room"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "blue",
+            "entity": "name_room"
+          }
+        ],
+        "text": "blue room"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "green",
+            "entity": "name_room"
+          }
+        ],
+        "text": "green room"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "14h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "14h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "14h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "14h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "8h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "8h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "9h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "9h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "10h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "10h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "11h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "11h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "12h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "12h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "13h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "13h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "14h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "14h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "15h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "15h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "16h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "16h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "17h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "17h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "18h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "18h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "19h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "19h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "20h",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "20h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "9h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "9h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "11h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "11h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "12h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "12h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "13h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "13h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "14h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "14h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "15h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "15h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "16h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "16h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "17h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "17h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "18h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "18h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "19h30",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "19h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "10h45",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "10h45"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "11h45",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "11h45"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "13h45",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "13h45"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "13h15",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "13h15"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "15h15",
+            "entity": "hour_start"
+          }
+        ],
+        "text": "15h15"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "2 hours",
+            "entity": "duration"
+          }
+        ],
+        "text": "2 hours"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "1 hour",
+            "entity": "duration"
+          }
+        ],
+        "text": "1 hour"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "3 hours",
+            "entity": "duration"
+          }
+        ],
+        "text": "3 hours"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "30 min",
+            "entity": "duration"
+          }
+        ],
+        "text": "30 min"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "45 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "45 minutes"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "15 min",
+            "entity": "duration"
+          }
+        ],
+        "text": "15 min"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "90 minutes",
+            "entity": "duration"
+          }
+        ],
+        "text": "90 minutes"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "tomorrow",
+            "entity": "day"
+          }
+        ],
+        "text": "tomorrow"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "3 decembre 2018",
+            "entity": "day"
+          }
+        ],
+        "text": "3 decembre 2018"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "3 december",
+            "entity": "day"
+          }
+        ],
+        "text": "3 december"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "red",
+            "entity": "name_room"
+          }
+        ],
+        "text": "red "
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "3 mai",
+            "entity": "day"
+          }
+        ],
+        "text": "3 mai"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "3rd may",
+            "entity": "day"
+          }
+        ],
+        "text": "3rd may"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "1st",
+            "entity": "day"
+          }
+        ],
+        "text": "1st"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "2nd",
+            "entity": "day"
+          }
+        ],
+        "text": "2nd"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "3rd",
+            "entity": "day"
+          }
+        ],
+        "text": "3rd"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "28 october",
+            "entity": "day"
+          }
+        ],
+        "text": "28 october"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "20 september",
+            "entity": "day"
+          }
+        ],
+        "text": "20 september"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "30 september",
+            "entity": "day"
+          }
+        ],
+        "text": "30 september"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "15 octobre",
+            "entity": "day"
+          }
+        ],
+        "text": "15 octobre"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "20 juin",
+            "entity": "day"
+          }
+        ],
+        "text": "20 juin"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "30 juillet",
+            "entity": "day"
+          }
+        ],
+        "text": "30 juillet"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "15 november",
+            "entity": "day"
+          }
+        ],
+        "text": "15 november"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "30 december",
+            "entity": "day"
+          }
+        ],
+        "text": "30 december"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "4 january",
+            "entity": "day"
+          }
+        ],
+        "text": "4 january"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "20 february",
+            "entity": "day"
+          }
+        ],
+        "text": "20 february"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "20 february",
+            "entity": "day"
+          }
+        ],
+        "text": "20 february"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "20 mai",
+            "entity": "day"
+          }
+        ],
+        "text": "20 mai"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "20 may",
+            "entity": "day"
+          }
+        ],
+        "text": "20 may"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "15 march",
+            "entity": "day"
+          }
+        ],
+        "text": "15 march"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "15 april",
+            "entity": "day"
+          }
+        ],
+        "text": "15 april"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "20 june ",
+            "entity": "day"
+          }
+        ],
+        "text": "20 june "
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "30 july",
+            "entity": "day"
+          }
+        ],
+        "text": "30 july"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "12 october 2018",
+            "entity": "day"
+          }
+        ],
+        "text": "12 october 2018"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1h15",
+            "entity": "duration"
+          }
+        ],
+        "text": "1h15"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1h30",
+            "entity": "duration"
+          }
+        ],
+        "text": "1h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1h45",
+            "entity": "duration"
+          }
+        ],
+        "text": "1h45"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "1h",
+            "entity": "duration"
+          }
+        ],
+        "text": "1h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "2h",
+            "entity": "duration"
+          }
+        ],
+        "text": "2h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2h15",
+            "entity": "duration"
+          }
+        ],
+        "text": "2h15"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2h45",
+            "entity": "duration"
+          }
+        ],
+        "text": "2h45"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "3h",
+            "entity": "duration"
+          }
+        ],
+        "text": "3h"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "3h15",
+            "entity": "duration"
+          }
+        ],
+        "text": "3h15"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "3h30",
+            "entity": "duration"
+          }
+        ],
+        "text": "3h30"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "3h45",
+            "entity": "duration"
+          }
+        ],
+        "text": "3h45"
+      },
+      {
+        "intent": "book_room",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "4h",
+            "entity": "duration"
+          }
+        ],
+        "text": "4h"
+      },
+      {
+        "intent": "book_room",
+        "text": "I want a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "I need a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "I need to book a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "help me to book a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "I have to book a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "can you help me to book a room ?"
+      },
+      {
+        "intent": "book_room",
+        "text": "I need a room please"
+      },
+      {
+        "intent": "book_room",
+        "text": "Book me a room "
+      },
+      {
+        "intent": "book_room",
+        "text": "I want you to book me a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "Alex, reserve me a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "I need a roooooooom"
+      },
+      {
+        "intent": "book_room",
+        "text": "Book me a room pleaaase"
+      },
+      {
+        "intent": "book_room",
+        "text": "Book us a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "We need a room please"
+      },
+      {
+        "intent": "book_room",
+        "text": "give us a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "We want to reserve a room please"
+      },
+      {
+        "intent": "book_room",
+        "text": "please give us a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "Book us a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "please reserve us a room"
+      },
+      {
+        "intent": "book_room",
+        "text": "Alex book me a room pleaaaase"
+      },
+      {
+        "intent": "book_room",
+        "text": "reserve us a room ! "
+      },
+      {
+        "intent": "book_room",
+        "text": "Alex reserve me a room pleaaz"
+      },
+      {
+        "intent": "book_room",
+        "text": "we wish a meeting room"
+      },
+      {
+        "intent": "book_room",
+        "text": "Alex can you reseve us meeting room ? "
+      },
+      {
+        "intent": "book_room",
+        "text": "we need a meeting room "
+      },
+      {
+        "intent": "book_room",
+        "text": "can you help us to reserve a room please ? "
+      },
+      {
+        "intent": "book_room",
+        "text": "we want you to reserve a meeting room "
+      },
+      {
+        "intent": "book_room",
+        "text": "We wish to book a meeting room !"
+      },
+      {
+        "intent": "book_room",
+        "text": "I want you to book me a meeting room !"
+      },
+      {
+        "intent": "book_room",
+        "text": "alex please help me to book a room !"
+      },
+      {
+        "intent": "book_room",
+        "text": "We want a room Alex please"
+      },
+      {
+        "intent": "book_room",
+        "text": "mm can you book me a room alex ? "
+      },
+      {
+        "intent": "book_room",
+        "text": "I need a room quickly  Alex "
+      },
+      {
+        "intent": "book_room",
+        "text": "We need a room quickly alex ! "
+      },
+      {
+        "intent": "book_room",
+        "text": "Can you reserve me a meting room please ? "
+      },
+      {
+        "intent": "book_room",
+        "text": "I want you to book me a meeting room !"
+      },
+      {
+        "intent": "book_room",
+        "text": "alex please help me to book a room !"
+      },
+      {
+        "intent": "book_room",
+        "text": "We want a room Alex please"
+      },
+      {
+        "intent": "book_room",
+        "text": "mm can you book me a room alex ? "
+      },
+      {
+        "intent": "book_room",
+        "text": "I need a room quickly  Alex "
+      },
+      {
+        "intent": "book_room",
+        "text": "We need a room quickly alex ! "
+      },
+      {
+        "intent": "book_room",
+        "text": "Can you reserve me a meting room please ? "
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

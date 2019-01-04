@@ -1,0 +1,25 @@
+{
+  "states": [
+    "intent_book_room",
+    "intent_goodbye",
+    "intent_greet",
+    "entity_name_room",
+    "entity_day",
+    "entity_hour_start",
+    "entity_duration",
+    "slot_day_0",
+    "slot_duration_0",
+    "slot_hour_start_0",
+    "slot_name_room_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_ask_room",
+    "prev_utter_ask_day",
+    "prev_utter_ask_hour_start",
+    "prev_utter_ask_duration",
+    "prev_action_room"
+  ]
+}
