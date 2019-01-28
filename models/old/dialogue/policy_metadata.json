@@ -2,19 +2,19 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "name_room",
         "duration",
-        "hour_start",
-        "day"
+        "name_room",
+        "day",
+        "hour_start"
       ]
     },
     "utter_goodbye": {
       "slots": []
     },
-    "action_room": {
+    "utter_greet": {
       "slots": []
     },
-    "utter_greet": {
+    "action_room": {
       "slots": []
     }
   },

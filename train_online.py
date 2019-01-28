@@ -45,5 +45,5 @@ def run_weather_online(interpreter,
 
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
-    nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/roomnlu')
+    nlu_interpreter = RasaNLUInterpreter('./models/current/nlu')
     run_weather_online(nlu_interpreter)
