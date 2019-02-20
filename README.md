@@ -9,11 +9,6 @@
     <img src="https://img.shields.io/badge/subject-awesome-green.svg"
       alt="Subject" />
   </a>
-</div>
-
-Ici, la correction du chatbot basé sur rasa. Le principal problème que j'ai rencontré était dû à la migration.
-
-Dans le wiki se trouve le cours/les conseils du 29 novembre 2018.
 
 ## Installation
 
